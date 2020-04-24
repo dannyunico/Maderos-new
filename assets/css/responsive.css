@@ -1,0 +1,68 @@
+@media (max-width: 991.98px) {
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1440px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .logo-banner{
+    width: 60px;
+  }
+  .main-banner {
+    position: relative;
+    height: 85vh;
+  }
+  .main-banner__img{
+    height: 100%;
+  }
+  .main-banner__img img{
+    height: 100%;
+  }
+  .main-banner__text{
+    margin: 30px 10px 10px 10px;
+  }
+
+  .main-banner__text p:nth-child(1){
+    font-size: 25px;
+  }
+
+  .main-banner__text p{
+    font-size: 1.2rem;
+  }
+
+  .main-banner__text .price p{
+    font-size: 2rem;
+  }
+
+  .content-form{
+    grid-template-columns: 100%;
+    padding: 30px;
+  }
+  .items{
+    padding: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+  .detail-content{
+    padding: 0;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .detail-content img{
+    margin: auto;
+    padding: 0;
+  }
+  
+  .p-50{
+    padding: 0;
+  }
+  .about{
+    grid-template-columns: 100%;
+  }
+  .content-about {
+    padding: 30px;
+}
+}
