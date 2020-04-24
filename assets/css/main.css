@@ -644,9 +644,17 @@ p.description-detail{
 }
 
 .text-section-content, .zona-2{
-    padding: 20px 10px 20px 0;
+    padding: 20px 15px 20px 0;
     font-weight: 300;
     font-family: 'Montserrat';
+    height: 69vh;
+
+}
+.zona .content-about{
+	padding: 57px 75px;
+}
+.items-about ul{
+	padding: 0;
 }
 
 .content-about{
@@ -664,7 +672,7 @@ p.description-detail{
 }
 .zona:nth-child(1){
 	padding: 0;
-	height: 78vh;
+	height: 69vh;
 }
 
 .main-zona__content, .slick-list, .slick-track{
@@ -672,8 +680,10 @@ p.description-detail{
 }
 
 .main-zona{
-	margin-bottom: 70px;
-}
+	    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 52% 48%;
+    padding-bottom: 100px;}
 
 .items-planos ul li{
 	margin: 5px 0;
@@ -977,7 +987,7 @@ footer {
 }
 
 .content-form .form__item .form-group textarea{
-	height: 75px;
+	height: 80px;
 }
 
 .formulario-banner{
@@ -1053,4 +1063,38 @@ footer {
 }
 .modal-video .modal-dialog {
     max-width: 70vw;
+}
+
+.main-zona__content .slick-dots{
+	bottom: -70px;
+}
+.main-zona__content .slick-dots li button:before{
+	color: #fff;
+	border-radius: 50%;
+	font-size: 14px;
+	opacity: 1;
+	background: #8f5330;
+	width: 15px;
+	height: 15px;
+	line-height: 17px;
+
+}
+
+.main-zona__content .slick-dots li.slick-active button:before{
+	color: #8f5330;
+	opacity: 1; 
+}
+
+.seccion-zona {
+    padding-left: 0;
+}
+
+.main-planos__items{
+	display: flex !important;
+	justify-content: center;
+}
+
+
+.content-about .items-about ul li{
+	margin: 7px 0
 }
