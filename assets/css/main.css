@@ -198,7 +198,7 @@ a:hover {
 
 .navbar.nav-bg{
 	background-color: #5ad0cc;
-	position: fixed.container-contacto;
+	position: fixed;
 }
 
 .container-nav{
@@ -266,8 +266,8 @@ a:hover {
 	text-align: center;
 }
 .nav-link  {
-	font-family: Montserrat;
-    font-size: 28px;
+	font-family: 'Montserrat';
+    font-size: 20px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
