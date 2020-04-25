@@ -6,6 +6,13 @@ $(function () {
     $('.navbar').toggleClass('nav-bg')
   })
 })
+$(function () {
+  'use strict'
+
+  $('.nav-link').on('click', function () {
+    $('.offcanvas-collapse').toggleClass('open')
+  })
+})
 
 
 

@@ -36,40 +36,38 @@
 					<ul class="navbar-nav m-auto">
 
             <li class="nav-item ">
-							<a class="nav-link  " href="#">detalle de PROYECTO</a>
+							<a class="nav-link  " href="#detalle-proyecto">detalle de PROYECTO</a>
 						</li>
 						<li class="nav-item ">
-							<a class="nav-link  " href="#">Acerca del PROYECTO</a>
+							<a class="nav-link  " href="#acerca">Acerca del PROYECTO</a>
             </li>
             <li class="nav-item ">
-							<a class="nav-link  " href="#">video</a>
+							<a class="nav-link  " href="#video">video</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#ZONASCOMUNES">ZONAS COMUNES</a>
+							<a class="nav-link " href="#zonas-comunes">ZONAS COMUNES</a>
 
 						</li>
 						
 						<li class="nav-item">
-							<a class="nav-link " href="#PLANOSDELPROYECTO">PLANOS DEL PROYECTO</a>
+							<a class="nav-link " href="#planos-proyecto">PLANOS DEL PROYECTO</a>
             </li>
             <li class="nav-item">
-							<a class="nav-link " href="#GALERÍAEXTERIOR">GALERÍA</a>
+							<a class="nav-link " href="#galeria">GALERÍA</a>
             </li>
             <li class="nav-item">
-							<a class="nav-link " href="#GALERÍAEXTERIOR">Avances de la obra</a>
+							<a class="nav-link " href="#avances-obras">Avances de la obra</a>
             </li>
             
             <li class="nav-item">
-							<a class="nav-link " href="#GALERÍAEXTERIOR">contacto</a>
+							<a class="nav-link " href="#contacto">contacto</a>
 						</li>
+
 						<li class="nav-item">
-							<a class="nav-link " href="#galeriaapartamento">galería apartamento</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#UBICACIÓN">UBICACIÓN</a>
+							<a class="nav-link" href="#ubicacion">UBICACIÓN</a>
             </li>
             <li class="nav-item">
-							<a class="nav-link" href="#UBICACIÓN">formulario</a>
+							<a class="nav-link" href="#formulario">formulario</a>
 						</li>
 					</ul>
 
@@ -115,7 +113,7 @@
 	</section>
 	<!-- form -->
 	<section>
-		<div class="content-form">
+		<div class="content-form" id="contacto">
 			<div class="form__item">
 				<p>Te llamamos para darte <br> <span>una asesoría completa</span></p>
 			</div>
@@ -176,7 +174,7 @@
 
 
 
-<section class="p-50"> 
+<section class="p-50" id="detalle-proyecto"> 
 	
 		<div class="content-zone__item">
 				<div class="content-zone__text ">
@@ -242,7 +240,7 @@
 
 
 
-<section class="">
+<section class="" id="acerca">
 	
 	<div class="about">
 		<div class="image-section-first "><img src="assets/img/about.png"></div>
@@ -287,18 +285,18 @@
   </div>
 
 
-<section class="p-50 seccion-zona">
+<section class="p-50 seccion-zona" id="zonas-proyecto">
 	<div class="main-zona">
 			<div class="zona">
 				<div class="main-zona__content">
 					<div class="image-section-first">
-						<img src="assets/img/galeria/image_11.png">
+						<img src="assets/img/icono-zona/1.jpg">
 					</div>
 					<div class="image-section-first">
-						<img src="assets/img/galeria/image_11.png">
+						<img src="assets/img/icono-zona/2.jpg">
 					</div>
 					<div class="image-section-first">
-						<img src="assets/img/galeria/image_11.png">
+						<img src="assets/img/icono-zona/.jpg">
 					</div>
 				</div>
 			</div>
@@ -335,22 +333,42 @@
 
 
 	<!-- Zonas comunes -->
-	<section>
+	<section id="planos-proyecto"> 
 		<div class="content-zone row">
 
 			<div class="main-plan col-md-6">
-				<div class="text-plano">
-					<p>Tipo A 69,83 m2 <strong class="texto-planos">Tipo B 58,35 m2</strong> Tipo C 61,82 m2</p>
-				</div>
-				<div class="main-planos__content">
-					<div class="main-planos__items">
-						<img src="assets/img/image-planos.png" alt="">
+        <div class="main-planos__content">
+          <div class="main-planos__items">
+            <div class="items-slider">
+              <div class="text-plano">
+                <p><strong class="texto-planos">Tipo B 55,00 m2</strong></p>
+              </div>
+              <img src="assets/img/image-planos.png" alt="">
+            </div>
 					</div>
 					<div class="main-planos__items">
-						<img src="assets/img/image-planos.png" alt="">
+						<div class="items-slider">
+              <div class="text-plano">
+                <p><strong class="texto-planos">Tipo B 58,00 m2</strong></p>
+              </div>
+              <img src="assets/img/image-planos.png" alt="">
+            </div>
 					</div>
 					<div class="main-planos__items">
-						<img src="assets/img/image-planos.png" alt="">
+						<div class="items-slider">
+              <div class="text-plano">
+                <p><strong class="texto-planos">Tipo B 61,00 m2</strong></p>
+              </div>
+              <img src="assets/img/image-planos.png" alt="">
+            </div>
+          </div>
+          <div class="main-planos__items">
+						<div class="items-slider">
+              <div class="text-plano">
+                <p><strong class="texto-planos">Tipo B 69,00 m2</strong></p>
+              </div>
+              <img src="assets/img/image-planos.png" alt="">
+            </div>
 					</div>
 				</div>
 		</div>
@@ -360,13 +378,14 @@
 					<hr>
 					<div class="items-planos">
 						<ul>
-							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos1.png" alt="">Cocina-comedor</li>
-							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos2.png" alt="">Salón</li>
-							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos3.png" alt="">Balcón</li>
+              <li><img class="iconos-planos" src="assets/img/iconos/icon-planos6.png" alt="">2 habitaciones</li>
+							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos5.png" alt="">2 baños con ducha</li>
+							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos2.png" alt="">sala</li>
+              <li><img class="iconos-planos" src="assets/img/iconos/icon-planos1.png" alt="">espacio para comedor</li>
+              <li><img class="iconos-planos" src="assets/img/iconos/icon-planos1.png" alt="">cocina</li>
 							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos4.png" alt="">Zona de ropas</li>
-							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos5.png" alt="">2 Baños para alcobas</li>
-							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos6.png" alt="">Alcoba principal</li>
-							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos7.png" alt="">Alcoba 2</li>
+							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos3.png" alt="">amplio balcón</li>
+							<li><img class="iconos-planos" src="assets/img/iconos/icon-planos7.png" alt=""> cuarto útil</li>
 
 
 
@@ -383,7 +402,7 @@
 	</section>
 
 	<!-- galleria -->
-	<section class="p-50">
+	<section class="p-50" id="galeria">
 		<div class="main-galery">
 			<div class="title-general">
 				<h3>Galería</h3>
@@ -391,18 +410,18 @@
       </div>
       <div class="container-fluid">
         <div class="main-mansory-grid">
+          <img src="assets/img/galeria/1.jpg" alt="" />
+                
+          <img src="assets/img/galeria/2.jpg" alt="" />
+  
+          <img src="assets/img/galeria/3.jpg" alt="" />
+          <img src="assets/img/galeria/4.jpg" alt="" />
+          
+          <img src="assets/img/galeria/5.jpg" alt="" />
           <img src="assets/img/galeria/image_14.png" alt="" />
                 
           <img src="assets/img/galeria/image_11.png" alt="" />
-  
-          <img src="assets/img/galeria/image_13.png" alt="" />
-          <img src="assets/img/galeria/image_11.png" alt="" />
-          
-          <img src="assets/img/galeria/image_13.png" alt="" />
-        
-          <img src="assets/img/galeria/image_14.png" alt="" />
-          <img src="assets/img/galeria/image_11.png" alt="" />
-          
+              
         </div>
       </div>
 
@@ -453,7 +472,7 @@
 
 
 <!-- galleria -->
-	<section>
+	<section id="avances-obra">
 		<div class="main-galery__avance">
 			<div class="title-general">
 				<h3>AVANCE DE LA OBRA</h3>
@@ -467,13 +486,14 @@
 
 						<div class="grid-slide-galeria">
 						
-								<img src="assets/img/galeria/image_11.png" alt="" />
+								<img src="assets/img/avance-de-obra/1.jpg" alt="" />
 								
-								<img src="assets/img/galeria/image_13.png" alt="" />
+								<img src="assets/img/avance-de-obra/2.jpg" alt="" />
 							
-								<img src="assets/img/galeria/image_14.png" alt="" />
+								<img src="assets/img/avance-de-obra/3.jpg" alt="" />
 
-								<img src="assets/img/galeria/image_13.png" alt="" />
+                <img src="assets/img/avance-de-obra/4.jpg" alt="" />
+                <!-- <img src="assets/img/avance-de-obra/5.jpg" alt="" /> -->
 							
 
 						</div>
@@ -489,7 +509,7 @@
 
 
 <!-- galleria -->
-	<section class="p-50">
+	<section class="p-50" id="ubicacion">
 		<div class="main-galery">
 			<div class="title-general">
 				<h3>ubicacion</h3>
@@ -497,11 +517,11 @@
 			</div>
 
 			<div class="main-maps">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253821.4353829726!2d-75.73683147206448!3d6.269000637835613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ef4e52dddb%3A0x722fd6c39270ac72!2sMedell%C3%ADn%2C%20Antioquia%2C%20Colombia!5e0!3m2!1ses!2sve!4v1587529763748!5m2!1ses!2sve" width="100%" height="470" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15870.038115418443!2d-75.503322!3d6.0618008!3m2!1i1024!2i768!4f13.1!3m2!1m1!2sMaderos%20del%20Retiro!5e0!3m2!1ses-419!2sve!4v1587824267433!5m2!1ses-419!2sve" width="100%" height="470" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
 	</section>
 
-	<section>
+	<section id="formulario">
 		<div class="main-contact" style="background-image: url(assets/img/image.png);">
 		
 			<div class="form__item form__item--contact">
@@ -581,17 +601,17 @@
 				<div class="content-contacto">
 					<img src="assets/img/icono-zona/icon_11.png" alt="">
 					<p>Teléfono</p>
-					<span>541 13 32</span>
+					<a href="tel:5411332"><span>541 13 32</span></a>
 				</div>
 				<div class="content-contacto">
 					<img src="assets/img/icono-zona/icon_11.png" alt="">
 					<p>Celular</p>
-					<span>316 505 00 87</span>
+					<a href="http://api.whatsapp.com/send?phone=573165050087" target="blank"><span>316 505 00 87</span></a>
 				</div>
 				<div class="content-contacto">
 					<img src="assets/img/icono-zona/icon_11.png" alt="">
 					<p>Correo</p>
-					<span>maderos@nivel.com.co</span>
+					<a href="mailto:maderos@nivel.com.co"><span>maderos@nivel.com.co</span></a>
 				</div>
 			</div>
 		</div>
@@ -603,12 +623,11 @@
 			<div class="footer__grid--tem ">
 				<img src="assets/img/logo.png" alt="">
 
-				<p>Ubicado en el municipio de Sabaneta, Antioquia, sector Loma de San José, zona de alta valorización en
-					una reserva natural que te entregará toda la tranquilidad que necesitas.
+				<p>El espacio que siempre has querido en un municipio tranquilo, campestre y cerca a todo lo que netascesi. 
 				</p>
 				<ul>
-					<li><a href=""><img src="assets/img/fb.png" alt=""></a></li>
-					<li><a href=""><img src="assets/img/instagram.png" alt=""></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/nivelpropiedadraiz"><img src="assets/img/fb.png" alt=""></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/nivelpropiedadraiz/"><img src="assets/img/instagram.png" alt=""></a></li>
 
 				</ul>
 			</div>
@@ -616,16 +635,17 @@
 			<div class="footer__grid--tem">
 				<h3>Menú</h3>
 				<ul>
-					<li><a href="">Acerca del proyecto</a></li>
-					<li><a href="">Zonas comunes</a></li>
-					<li><a href="">Galería exterior</a></li>
-					<li><a href="">Planos del proyecto</a></li>
-					<li><a href="">Galería del apartamento</a></li>
-					<li><a href="">Formulario</a></li>
-					<li><a href="">Ubicación</a></li>
-					<li><a href="">Formulario</a></li>
-					<li><a href="">Formulario</a></li>
-					<li><a href="">Formulario</a></li>
+          <li><a href="#detalle-proyecto">Detalle de proyecto</a></li>
+          <li><a href="#acerca">Acerca del proyecto</a></li>
+          <li><a href="#video">Video</a></li>
+					<li><a href="#zonas-proyecto">Zonas comunes</a></li>
+					<li><a href="#planos-proyecto">Planos del proyecto</a></li>
+					<li><a href="#galeria">Galería</a></li>
+					<li><a href="#avances-proyecto">Avances de la obra</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+					<li><a href="#ubicacion">Ubicación</a></li>
+					<li><a href="#formulario">Formulario</a></li>
+					
 				</ul>
 			</div>
 			<div class="footer__grid--tem">
@@ -637,15 +657,15 @@
 					<div>
 						<h3>Teléfono</h3>
 					<li>
-						<a href="tel:+ 57 520 27 14<">
-							+ 57 520 27 14</a>
+						<a href="tel:5411332">
+							+ 541 13 32</a>
 					</li>
 					</div>
 					<div><h3>Celular</h3>
 						<li>
-							<a href="tel:+ 57 314 877 57 01">
+							<a href="tel:3165050087">
 	
-								+ 57 314 877 57 01</a>
+								+ 316 505 00 87</a>
 						</li>
 					</div>
 					<div>
@@ -665,7 +685,7 @@
 
 
 	<div class="btns">
-		<a href="tel:+3165050087"><img src="assets/img/2.png" alt=""></a>
+		<a href="http://api.whatsapp.com/send?phone=573165050087" target="blank" ><img src="assets/img/2.png" alt=""></a>
 		<a href="#banner"><img src="assets/img/1.png" alt=""></a>
 
 	</div>
