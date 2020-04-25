@@ -28,3 +28,22 @@ $(window).scroll(function () {
   }
 });
 
+
+// menu hambuger
+
+
+$(".hamburger").on("click", function () {
+  if (!$(this).hasClass("is-active")) {
+    $(this).addClass("is-active")
+    $('.navbar-fixed-js').addClass('fixed');
+    $('.hamburger-inner').addClass('js-hamburger');
+  } else {
+    $(this).removeClass("is-active")
+    if ($(document).scrollTop() <= 70 && ($(window).width() >= 0)) {
+      $('.navbar-fixed-js').removeClass('fixed');
+      $('.hamburger-inner').removeClass('js-hamburger');
+ ;
+
+    }
+  }
+});
