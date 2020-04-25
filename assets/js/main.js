@@ -15,9 +15,6 @@ $(function () {
   })
 })
 
-
-
-
 // Menú fixed
 $(window).scroll(function () {
   if ($(document).scrollTop() > 70 && ($(window).width() >= 768)) {

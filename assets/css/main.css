@@ -1027,7 +1027,7 @@ img.iconos-planos{
 
 .btn-form--w {
 	padding: 12px !important;
-
+	border-radius: 0px;
 	width: 30%;
 
 }
