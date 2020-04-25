@@ -43,6 +43,76 @@
   .main-banner__img img{
     height: 100%;
   }
+  .content-form{
+    padding: 32px 30px;
+  }
+  .form__item span{
+    font-size: 1.2rem;
+  }
+  .custom-control-label, .custom-control-label a{
+    font-size: 0.7rem;
+  }
+
+  .custom-control-label a span{
+    font-size: 0.7rem;
+  }
+  .title-general h3{
+    font-size: 30px;
+  }
+  .title-general hr, .content-zone__text .title-general hr{
+    margin-left: 44%;
+  }
+  .p-50 {
+    padding: 30px 0;
+  }
+  .content-zone__text{
+    padding-left: 0;
+  }
+  .items {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+  }
+  .detail-content {
+    padding: 0;
+    grid-template-columns: 25% 75%;
+  }
+  .image-section-first {
+    padding-left: 20px;
+  }
+  .about{
+    padding-right: 30px;
+  }
+  .content-about{
+    padding: 30px;
+  }
+  .subtitle-general p{
+    font-size: 30px;
+  }
+  .text-section-content, .zona-2{
+    font-size: 14px;
+  }
+  .zona .content-about {
+    padding: 30px;
+  }
+  .content-about .items-about ul li{
+    margin: 3px 0;
+  }
+  .content-zone .content-zone__item .content-zone__text p{
+    font-size: 30px;
+  }
+  .content-zone{
+    padding: 30px;
+  }
+  .content-zone__text li{
+    font-size: 15px;
+  }
+  .btp{
+    width: 100%;
+  }
+  .main-galery__avance{
+    padding: 30px;
+  }
+
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
