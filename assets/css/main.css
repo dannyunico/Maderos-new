@@ -160,7 +160,7 @@ body {
 	overflow-x: hidden;
 	background: #bdbdbd0f;
 }
-
+/* 
 ::-webkit-scrollbar {
 	width: 8px;
 	height: 8px;
@@ -170,7 +170,7 @@ body {
 ::-webkit-scrollbar-thumb {
 	border-radius: 5px;
 	background: #9E9E9E;
-}
+} */
 
 ul{
 	list-style: none;
@@ -193,10 +193,17 @@ a:hover {
 }
 
 .fixed-top {
-	position: relative;
+	position: fixed;
 
 }
+.navbar.nav-bg{
+	background-color: #5ad0cc;
+}
 
+.container-nav{
+	width: 100%;
+}
+/* 
 .navbar {
 	background: transparent;
 	top: 0;
@@ -241,7 +248,7 @@ a:hover {
 	padding-right: 18px;
 	display: flex;
 	padding-top: 20px;
-}
+} */
 
 .ml-6 {
 	margin-left: 6rem !important;
@@ -374,19 +381,20 @@ a:hover {
 }
 
 .btns a {
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 .form__item p {
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	font-family: "Montserrat";
-    margin: 0;
+	margin: 0;
+	font-weight: 700;
 }
 
 .form__item span {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-family: "Montserrat";
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: .6px;
 }
 
@@ -415,6 +423,12 @@ label {
 	width: 100%;
 	font-family: "Montserrat SemiBold";
 	text-transform: uppercase;
+	transition: .3s ease-in-out;
+}
+.btn-form:hover{
+	color:#2d2d2d;
+	background-color: #fff;
+	transition: .3s ease-in-out;
 }
 
 /* aboyt */
@@ -858,7 +872,7 @@ img.iconos-planos{
     border-radius: 0;
     padding: 11px;
     font-size: 13px;
-    color: #606060;
+    color: #fff;
     padding: 14px
 }
 
@@ -1164,7 +1178,7 @@ footer {
 }
  .offcanvas-collapse {
     position: fixed;
-    top: 0;
+    top: 130px;
     bottom: 0;
     left: 100%;
     width: 100%;
@@ -1182,10 +1196,13 @@ footer {
   }
 
   .main-brand{
-  	z-index: 99
+	  z-index: 99;
+	  width: 100%;
+	  display: flex;
+	  justify-content: space-between;
   }
 
-  .custom-control-label{
+  .custom-control-label,  .custom-control-label a{
   	font-size: .8rem;
   	margin-bottom: 10px;
   	color: #fff;
@@ -1194,7 +1211,7 @@ footer {
 
   }
 
-  .custom-control-label span{
+  .custom-control-label a span{
   	text-decoration: underline;
   	font-size: .8rem;
   }
@@ -1203,7 +1220,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 55vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -1326,8 +1343,8 @@ footer {
 .main-mansory-grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: repeat(10,100px);
-	grid-gap:15px;
+	grid-template-rows: repeat(10,75px);
+	grid-gap:20px;
 }
 
 .main-mansory-grid img{
