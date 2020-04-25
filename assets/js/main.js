@@ -4,7 +4,7 @@ $(function () {
   $('[data-toggle="offcanvas"]').on('click', function () {
     $('.offcanvas-collapse').toggleClass('open')
     $('.navbar').toggleClass('nav-bg')
-    $('html').toggleClass('open-off')
+    
   })
 })
 $(function () {
@@ -14,6 +14,7 @@ $(function () {
     $('.offcanvas-collapse').removeClass('open')
     $('.hamburger').removeClass('is-active')
     $('.navbar').removeClass('nav-bg')
+    
   })
 })
 
@@ -37,8 +38,10 @@ $(".hamburger").on("click", function () {
     $('.navbar-fixed-js').addClass('fixed');
     $('.hamburger-inner').addClass('js-hamburger');
     $('.navbar').addClass('nav-bg2')
+    $('html').addClass('open-off')
   } else {
     $(this).removeClass("is-active")
+    $('html').removeClass('open-off')
     if ($(document).scrollTop() <= 70 && ($(window).width() >= 0)) {
       $('.navbar-fixed-js').removeClass('fixed');
       $('.hamburger-inner').removeClass('js-hamburger');
