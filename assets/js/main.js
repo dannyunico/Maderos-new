@@ -10,7 +10,8 @@ $(function () {
   'use strict'
 
   $('.nav-link').on('click', function () {
-    $('.offcanvas-collapse').toggleClass('open')
+    $('.offcanvas-collapse').removeClass('open')
+    $('.navbar').removeClass('nav-bg')
   })
 })
 
