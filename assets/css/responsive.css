@@ -3,9 +3,9 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .main-banner__img img{
+  /* .main-banner__img img{
     height: 100vh;
-  }
+  } */
   .main-banner__text p:nth-child(1){
     font-size: 45px;
   }

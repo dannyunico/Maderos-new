@@ -152,6 +152,9 @@ body {
 html{
 	scroll-behavior: smooth;
 }
+html.open-off{
+	overflow: hidden;
+}
 
 body {
 	scroll-behavior: smooth !important;
@@ -1525,6 +1528,8 @@ footer {
 
  
   .items-slider img {
-  	object-fit: none;
+	  object-fit: none;
+	  object-fit: contain;
+	  height: 300px;
   }
 

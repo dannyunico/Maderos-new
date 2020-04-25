@@ -4,6 +4,7 @@ $(function () {
   $('[data-toggle="offcanvas"]').on('click', function () {
     $('.offcanvas-collapse').toggleClass('open')
     $('.navbar').toggleClass('nav-bg')
+    $('html').toggleClass('open-off')
   })
 })
 $(function () {
@@ -11,6 +12,7 @@ $(function () {
 
   $('.nav-link').on('click', function () {
     $('.offcanvas-collapse').removeClass('open')
+    $('.hamburger').removeClass('is-active')
     $('.navbar').removeClass('nav-bg')
   })
 })
