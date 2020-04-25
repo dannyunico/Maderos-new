@@ -999,6 +999,10 @@ img.iconos-planos{
 	padding: 0;
 }
 
+
+.content-contact .form__item--contact--bg .form-group input{
+	color: #fff !important;
+}
 .content-contact .form__item--contact--bg .form-group input::placeholder{
 	color: #fff !important;
 	letter-spacing: 0.2px !important;
@@ -1507,4 +1511,8 @@ footer {
   .hamburger--elastic.is-active .hamburger-inner::after {
 	transform: translate3d(0, -20px, 0) rotate(-270deg);
 	transition-delay: 0.075s;
+  }
+
+  .content-contact input{
+  	color: #fff;
   }

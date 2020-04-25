@@ -116,6 +116,16 @@
     background-size: cover;
     background-position: center;
   }
+  .content-contact{
+    width: 100%;
+  }
+  .main-contact_form p{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content-zone__text hr{
+    margin-left: 44%;
+  }
 
 }
 
