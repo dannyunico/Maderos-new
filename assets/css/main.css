@@ -204,6 +204,11 @@ a:hover {
 	position: fixed;
 }
 
+.navbar.nav-bg2{
+	background-color: #5ad0cc;
+
+}
+
 .container-nav{
 	width: 100%;
 }

@@ -19,36 +19,30 @@ $(function () {
 
 // Menú fixed
 $(window).scroll(function () {
-  if ($(document).scrollTop() > 70 && ($(window).width() >= 768)) {
+  if ($(document).scrollTop() > 70 && ($(window).width() <= 767)) {
    
-    // $('.navbar-fixed-js').addClass('top');
-    // $('.navbar-fixed-js').removeClasss('top');
-  } else {
-    // $('.navbar-fixed-js').removeClass('fixed');
-    // $('.nav-link').removeClass('fixed-color');
-    // $('.nav-top__header').removeClass('nav-top__header--detele');
-    // $("#iso").removeClass('img-size').attr('src', 'assets/img/logo.jpeg').removeClass('scroll-up');
-    // $('.navbar').addClass('top');
+    $('.navbar').addClass('nav-bg2')
  
-    // $('.navbar-fixed-js').addClass('top');
-    // $('.navbar-fixed-js').removeClasss('top');
+  } else {
+    $('.navbar').removeClass('nav-bg2')
+
   }
 });
 
 
 // menu hambuger
-
-
 $(".hamburger").on("click", function () {
   if (!$(this).hasClass("is-active")) {
     $(this).addClass("is-active")
     $('.navbar-fixed-js').addClass('fixed');
     $('.hamburger-inner').addClass('js-hamburger');
+    $('.navbar').addClass('nav-bg2')
   } else {
     $(this).removeClass("is-active")
     if ($(document).scrollTop() <= 70 && ($(window).width() >= 0)) {
       $('.navbar-fixed-js').removeClass('fixed');
       $('.hamburger-inner').removeClass('js-hamburger');
+      $('.navbar').removeClass('nav-bg2')
  ;
 
     }
