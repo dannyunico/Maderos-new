@@ -2,9 +2,67 @@
  
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-banner__img img{
+    height: 100vh;
+  }
+  .main-banner__text p:nth-child(1){
+    font-size: 45px;
+  }
+  .items{
+    gap:0;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+  .detail-content{
+    padding: 0;
+    grid-template-columns:25% 75%;
+  }
+  .main-zona{
+    padding: 0;
+  }
+  .zona:nth-child(1){
+    height: auto;
+  }
+  .main-galery__avance{
+    padding: 50px;
+  }
+  .main-contact{
+    background-size: cover;
+    background-position: center;
+  }
+  .content-contact{
+    width: 100%;
+  }
+  .main-contact_form p{
+    text-align: center;
+  }
+  .content-zone__text hr{
+    margin-left: 44%;
+  }
+  .footer__grid{
+    padding: 50px;
+    gap:20px;
+  }
+}
 
-@media (min-width: 1440px) and (max-width: 1199px) {}
+@media (min-width: 1199px) and (max-width:  1440px) {
+  .main-banner__img img{
+    height: 100vh;
+  }
+  .main-banner__text p:nth-child(1){
+    font-size: 45px;
+  }
+  .seccion-zona{
+    padding-bottom: 0;
+  }
+  .main-planos__content .slick-dots{
+    right: 290px;
+  }
+  .main-contact{
+    background-position: center;
+    background-size: cover;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand {

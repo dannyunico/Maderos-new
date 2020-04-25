@@ -817,7 +817,7 @@ p.description-detail{
 .about{
 	display: grid;
 	grid-template-columns: 53% 47%;
-    height: 69vh;
+    height: auto;
 	margin-bottom: 70px;
 	padding-right: 60px;
 }
