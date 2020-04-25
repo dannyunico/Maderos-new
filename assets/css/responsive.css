@@ -54,6 +54,7 @@ p.description-detail {
     padding: 0px 0px 0px 0;
     height: auto;
     order: -1;
+    font-size: 15px;
 }
 
 .main-zona {
@@ -72,7 +73,7 @@ p.description-detail {
 }
 .content-zone {
   
-    padding: 8px;
+    padding: 30px 10px;
   
    
 }
@@ -106,10 +107,14 @@ p.description-detail {
     margin-bottom: 30px;
 }
 
+.main-galery{
+  padding-bottom: 30px;
+}
+
 .main-mansory-grid {
 
     grid-template-columns: 1fr;
-;
+    grid-template-rows: repeat(8,75px);
     grid-gap: 4px;
 }
 .main-galery__avance {
@@ -199,35 +204,47 @@ p.description-detail {
 
 
 
-
+  .navbar-brand{
+    width: 65px
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
 
   .logo-banner{
     width: 60px;
   }
   .main-banner {
     position: relative;
-    height: 85vh;
+    height: auto;
+  }
+  .banner-slider{
+    height: 80vh;
   }
   .main-banner__img{
     height: 100%;
   }
   .main-banner__img img{
-    height: 100%;
+    height: auto;
   }
   .main-banner__text{
     margin: 30px 10px 10px 10px;
+    padding: 25px 20px 30px;
+    width: 350px;
   }
 
   .main-banner__text p:nth-child(1){
     font-size: 25px;
   }
-
+  .main-banner__text span{
+    font-size: 20px;
+  }
   .main-banner__text p{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .main-banner__text .price p{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .content-form{
@@ -244,17 +261,60 @@ p.description-detail {
     text-align: center;
   }
   .detail-content img{
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
   }
-  
+
+  .title-general hr, .content-zone__text .title-general hr{
+    margin-left: 42%;
+  }
+  .items .detail-content:nth-child(1) img{
+    margin-bottom: 18px;
+  }
+  .items .detail-content:nth-child(4) img{
+    margin-bottom: 18px;
+  }
+  .items .detail-content:nth-child(5) img{
+    margin-bottom: 18px;
+  }
+  .items .detail-content:nth-child(6) img{
+    margin-bottom: 18px;
+  }
   .p-50{
     padding: 0;
   }
   .about{
     grid-template-columns: 100%;
+    margin-bottom: 0;
+    height: 100vh;
   }
   .content-about {
+    padding: 30px;
+  }
+  .subtitle-general p{
+    font-size: 25px;
+    text-align: center;
+  }
+  .subtitle-general hr{
+    margin-left: 40%;
+  }
+  .main-video h3{
+    font-size: 30px;
+  }
+  .content-zone .content-zone__item .content-zone__text p{
+    font-size: 25px;
+    text-align: center;
+  }
+  .content-zone__text hr{
+    margin-left: 40%;
+  }
+  .main-contact_form p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .content-contact {
+    width: 100%;
     padding: 30px;
 }
 }
