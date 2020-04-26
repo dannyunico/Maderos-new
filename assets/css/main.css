@@ -219,6 +219,12 @@ a:hover {
 
 .navbar-brand img{
 	width: 90px;
+	transition: 0.3s ease-in-out;
+}
+
+.navbar-brand img.iso-small{
+	width: 75px;
+	transition: 0.3s ease-in-out;
 }
 
 .container-nav{

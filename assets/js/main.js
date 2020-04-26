@@ -12,12 +12,14 @@ $(function () {
 
 // Menú fixed
 $(window).scroll(function () {
-  if ($(document).scrollTop() > 70 && ($(window).width() > 0)) {
-   
+  if ($(document).scrollTop() > 70 && ($(window).width() >=0)) {
+
     $('.navbar').addClass('nav-bg')
+    $('#iso').addClass('iso-small')
  
   } else {
     $('.navbar').removeClass('nav-bg')
+    $('#iso').removeClass('iso-small')
 
   }
 });
