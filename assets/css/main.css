@@ -186,6 +186,30 @@ body :focus {
 	outline: none;
 }
 
+#img-pd{
+	padding: 20px;
+	width: 130px;
+	opacity: 0;
+}
+#img-pd.opac{
+	opacity: 1;
+}
+
+.navbar-toggler.navbar-btn{
+	padding:43px 30px 44px 35px !important;
+    background-color: #5ad0cc;
+    border-radius: 0;
+    position: fixed;
+    right: 0;
+	top: 0;
+	transition: 0.3s ease-in-out;
+	z-index: 99;
+}
+.navbar-toggler{
+	padding:43px 30px 44px 35px !important;
+	transition: 0.3s ease-in-out;
+	z-index: 99;
+}
 button:focus,button:focus-within, button:active,button:hover, button:visited {
 	outline: none !important;
 }
@@ -204,22 +228,27 @@ a:hover {
 
 .navbar.nav-bg{
 	background-color: #5ad0cc;
-	position: fixed;
+	/* position: fixed; */
 	transition: 0.3s ease-in-out;
 }
 .navbar{
 	transition: 0.3s ease-in-out;
-	padding-right: 20px;
+	padding-right: 0px;
 }
 
 .navbar.nav-bg2{
 	background-color: #5ad0cc;
+	position: fixed;
 
+}
+.navbar-brand{
+	z-index: 99;
 }
 
 .navbar-brand img{
 	width: 90px;
 	transition: 0.3s ease-in-out;
+	z-index: 99;
 }
 
 .navbar-brand img.iso-small{
@@ -1252,9 +1281,12 @@ footer {
 .formulario-banner{
 	padding: 0 0 0 20px;
 }
+.offcanvas-collapse ul{
+	padding-top: 55px;
+}
  .offcanvas-collapse {
     position: fixed;
-    top: 110px;
+    top: 0px;
     bottom: 0;
     left: 100%;
     width: 100%;
@@ -1270,7 +1302,13 @@ footer {
     left: 0px;
 	visibility: visible;
   }
-
+  .offcanvas-collapse.off-top{
+	  top: 0;
+  }
+  
+  .offcanvas-collapse.open ul{
+	padding-top: 55px;
+}
  
   .main-brand{
 	  z-index: 99;
