@@ -186,8 +186,8 @@ body :focus {
 	outline: none;
 }
 
-button:focus {
-	outline: 5px auto transparent;
+button:focus,button:focus-within, button:active,button:hover, button:visited {
+	outline: none !important;
 }
 
 /* section {
