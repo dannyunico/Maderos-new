@@ -37,10 +37,11 @@ $('.main-planos__content').slick({
 
 $('.banner-slider').slick({
   infinite: true,
-  autoplay: false,
   slidesToShow: 1,
   slidesToScroll: 1,
   dots: false,
+  autoplay:true,
+  autoplaySpeed:5000,
   // fade: true,
   // cssEase: "linear",
   arrows: false,

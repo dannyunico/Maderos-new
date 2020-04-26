@@ -315,6 +315,7 @@ a:hover {
 	height: unset;
 	object-fit: none;
 	object-position: top;
+	object-fit: cover;
 }
 
 .nav-item{
@@ -334,6 +335,10 @@ a:hover {
 }
 .main-banner {
 	position: relative;
+	height: 91vh;
+}
+.main-banner__img {
+	height: 91vh;
 }
 
 .main-banner__text {
