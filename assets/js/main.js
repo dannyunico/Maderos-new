@@ -3,20 +3,12 @@ $(function () {
 
   $('[data-toggle="offcanvas"]').on('click', function () {
     $('.offcanvas-collapse').toggleClass('open')
-    $('.navbar').toggleClass('nav-bg')
+    // $('.navbar').toggleClass('nav-bg')
+    
     
   })
 })
-$(function () {
-  'use strict'
 
-  $('.nav-link').on('click', function () {
-    $('.offcanvas-collapse').removeClass('open')
-    $('.hamburger').removeClass('is-active')
-    $('.navbar').removeClass('nav-bg')
-    
-  })
-})
 
 // Menú fixed
 $(window).scroll(function () {
@@ -38,17 +30,29 @@ $(".hamburger").on("click", function () {
     $('.navbar-fixed-js').addClass('fixed');
     $('.hamburger-inner').addClass('js-hamburger');
     $('.navbar').addClass('nav-bg2')
-    $('html').addClass('open-off')
+    // $('html').css('overflow', 'hidden ');
+    $('html').addClass('fixed');
+    
   } else {
     $(this).removeClass("is-active")
-    $('html').removeClass('open-off')
-    if ($(document).scrollTop() <= 70 && ($(window).width() > 0)) {
+    $('html').removeClass('fixed');
+    if ($(document).scrollTop() <= 70 && ($(window).width() <=767)) {
       $('.navbar-fixed-js').removeClass('fixed');
       $('.hamburger-inner').removeClass('js-hamburger');
-      $('.navbar').removeClass('nav-bg2')
-      $('html').removeClass('open-off')
- ;
+      $('.navbar').removeClass('nav-bg2');
+      $('html').toggleClass('fixed');
 
     }
   }
 });
+
+$(function () {
+  'use strict'
+
+  $('.nav-link').on('click', function () {
+    $('.offcanvas-collapse').removeClass('open')
+    $('.hamburger').removeClass('is-active')
+    $('html').removeClass('fixed');
+
+  })
+})

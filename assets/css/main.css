@@ -152,7 +152,10 @@ body {
 html{
 	scroll-behavior: smooth;
 }
-html.open-off{
+html{
+	overflow-y: auto;
+}
+html.fixed{
 	overflow: hidden;
 }
 
@@ -202,6 +205,11 @@ a:hover {
 .navbar.nav-bg{
 	background-color: #5ad0cc;
 	position: fixed;
+	transition: 0.3s ease-in-out;
+}
+.navbar{
+	transition: 0.3s ease-in-out;
+	padding-right: 20px;
 }
 
 .navbar.nav-bg2{
@@ -851,9 +859,20 @@ p.description-detail{
     height: auto;
 
 }
+/* .seccion-zona{
+	height: 790px;
+}
+
+.main-zona__content.slick-list.draggable{
+	height: 550px !important;
+}
+.main-zona__content.slick-list.draggable .image-section-first{
+	height: 550px !important;
+} */
+
 .zona .content-about{
-	padding: 23px 75px;
-  padding-top: 50px;
+	padding: 40px 75px;
+    padding-top: 40px;
 }
 .items-about ul{
 	padding: 0;
@@ -878,11 +897,13 @@ p.description-detail{
 	font-style: italic;
 	font-weight: 500;
 }
-
-.zona:nth-child(1){
+.zona{
+	height: 570px;
+}
+/* .zona:nth-child(1){
 	padding: 0;
 	height: 69vh;
-}
+} */
 
 .main-zona__content, .slick-list, .slick-track{
 	height: 100%;
@@ -1213,8 +1234,9 @@ footer {
 
 
 .content-form .form__item .form-group input.form-control{
-	padding: 20px 60px 20px .75rem;
+	/* padding: 20px 60px 20px .75rem; */
 	font-size: 15px;
+	height: 42px;
 }
 
 .content-form .form__item .form-group textarea{
@@ -1226,7 +1248,7 @@ footer {
 }
  .offcanvas-collapse {
     position: fixed;
-    top: 130px;
+    top: 110px;
     bottom: 0;
     left: 100%;
     width: 100%;
@@ -1360,7 +1382,7 @@ footer {
 
 
 .content-about .items-about ul li{
-	margin: 7px 0
+	margin: 5px 0
 }
 
 .texto-planos{
