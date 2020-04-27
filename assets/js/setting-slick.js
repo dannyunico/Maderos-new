@@ -55,13 +55,14 @@ $('.banner-slider').slick({
       settings: {
       
         infinite: true,
-        dots: false
+        dots: false,
+        arrows: false
       }
     },
     {
       breakpoint: 900,
       settings: {
-
+        arrows: false
       }
     },
     {
