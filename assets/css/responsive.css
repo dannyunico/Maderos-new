@@ -588,3 +588,12 @@ p.description-detail {
   }
   
 }
+
+
+
+@media (min-width: 1440px) and (max-height: 90px){
+  .slick-next, .slick-prev{
+    bottom: 20rem;
+  }
+  
+}
