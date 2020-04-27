@@ -4,6 +4,8 @@ $('.main-planos__content').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   dots: true,
+  fade: true,
+  cssEase: 'linear',
   // fade: true,
   // cssEase: "linear",
   arrows: false,
@@ -37,25 +39,30 @@ $('.main-planos__content').slick({
 
 $('.banner-slider').slick({
   infinite: true,
-  autoplay: false,
   slidesToShow: 1,
   slidesToScroll: 1,
   dots: false,
+  arrows:true,
+  autoplay:true,
+  autoplaySpeed:5000,
+  fade: true,
+  cssEase: 'linear',
   // fade: true,
   // cssEase: "linear",
-  arrows: false,
+  arrows: true,
   responsive: [{
       breakpoint: 1200,
       settings: {
       
         infinite: true,
-        dots: false
+        dots: false,
+        arrows: false
       }
     },
     {
       breakpoint: 900,
       settings: {
-
+        arrows: false
       }
     },
     {
