@@ -11,9 +11,9 @@
 		rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/fonts.css">
 	<link href="assets/css/slick.css" rel="stylesheet" />
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 	<link href="assets/css/slick-theme.css" rel="stylesheet" />
 	<link href="assets/css/font-awesome.css" rel="stylesheet" />
+	<link href="assets/css/animate/animate.css" rel='stylesheet'>
 	<link href="assets/css/main.css" rel="stylesheet" />
 	<link href="assets/css/responsive.css" rel="stylesheet" />
 </head>
@@ -85,7 +85,7 @@
 			<div class="banner-slider">
 					<div class="main-banner__img">
 						<img src="assets/img/slider/banner.png" alt="">
-						<div class="main-banner__text">
+						<div class="main-banner__text"  data-animation='fadeInUp'>
 							<p>MADEROS <br>DEL <br>RETIRO</p>
 							<hr>
 							<span>Ubicación</span>
@@ -102,7 +102,7 @@
           </div>
           <div class="main-banner__img">
             <img src="assets/img/slider/2.jpg" alt="">
-						<div class="main-banner__text">
+						<div class="main-banner__text" data-animation='fadeInUp'>
 							<p>MADEROS <br>DEL <br>RETIRO</p>
 							<hr>
 							<span>Ubicación</span>
@@ -119,7 +119,7 @@
           </div>
           <div class="main-banner__img">
 						<img src="assets/img/slider/3.png" alt="">
-						<div class="main-banner__text">
+						<div class="main-banner__text" data-animation='fadeInUp'>
 							<p>MADEROS <br>DEL <br>RETIRO</p>
 							<hr>
 							<span>Ubicación</span>
@@ -215,7 +215,9 @@
 
 					<div class="items">
 							
-							<div class="detail-content"> <img src="assets/img/iconos/icon-bloques.png" alt="">
+
+							<div class="detail-content wow fadeInUp " data-wow-delay='0.5s'> <img src="assets/img/iconos/icon-lugar.png" alt="">
+
 								<div>
 									<p class="title">número de bloques</p>
 							<p class="description-detail">Áreas desde 55 m2 hasta 69.9 m2
@@ -223,35 +225,37 @@
 								</div>
 								
 						</div>
-								<div class="detail-content"> <img src="assets/img/iconos/icon-lugar.png" alt="">
+
+								<div class="detail-content wow fadeInUp" data-wow-delay='0.5s'> <img src="assets/img/iconos/icon-bloques.png" alt="">
+
 								<div>
 									<p class="title">Zona Social y habitaciones</p>
 							<p class="description-detail">Piso laminado en madera.</p>
 								</div>
 								
 						</div>
-							<div class="detail-content"> <img src="assets/img/iconos/icon-verde.png" alt="">
+							<div class="detail-content wow fadeInUp" data-wow-delay='0.5s'> <img src="assets/img/iconos/icon-verde.png" alt="">
 								<div>
 									<p class="title">Cocina, baños y balcón</p>
 							<p class="description-detail">Piso y/o enchapes en cerámica.</p>
 								</div>
 								
 						</div>
-							<div class="detail-content"> <img src="assets/img/iconos/icon-transporte.png" alt="">
+							<div class="detail-content wow fadeInUp" data-wow-delay='0.5s'> <img src="assets/img/iconos/icon-transporte.png" alt="">
 								<div>
 									<p class="title">Cocina</p>
 							<p class="description-detail">Se entrega horno, cubierta y extractor.</p>
 								</div>
 								
 						</div>
-							<div class="detail-content"> <img src="assets/img/iconos/icon-lugar.png" alt="">
+							<div class="detail-content wow fadeInUp" data-wow-delay='0.5s'> <img src="assets/img/iconos/icon-lugar.png" alt="">
 								<div>
 									<p class="title">Baños</p>
 							<p class="description-detail">Muebles quartzstone y cabinas en vidrio templado.</p>
 								</div>
 								
 						</div>
-							<div class="detail-content"> <img src="assets/img/iconos/icon.png" alt="">
+							<div class="detail-content wow fadeInUp" data-wow-delay='0.5s'> <img src="assets/img/iconos/icon.png" alt="">
 								<div>
 									<p class="title">Iluminación</p>
 							<p class="description-detail">Iluminación LED.</p>
@@ -274,7 +278,7 @@
 <section class="" id="acerca">
 	
 	<div class="about">
-		<div class="image-section-first "><img src="assets/img/about.png"></div>
+		<div class="image-section-first wow fadeInUp" data-wow-delay='0.5s'><img src="assets/img/about.png"></div>
 		<div class="text-section-content"> 
 			<div class="content-about">
 				<div class="text-section-title">
@@ -284,7 +288,7 @@
 				 	</div>
 				</div>
 				<div class="text-section-subtitle ">Hoy empieza tú mejor historia</div>
-				<div class="text-section-content">
+				<div class="text-section-content wow fadeInUp" data-wow-delay='0.5s'>
           Un proyecto de apartamentos, locales y oficinas en la mejor ubicación de El Retiro, a pocas cuadras del parque principal, cerca a todo lo que necesitas y con la tranquilidad de un municipio campestre. Elige vivir en ese lugar que siempre has soñado, cerca a Medellín y con gran valorización. 
 			</div>
 		</div>
@@ -342,17 +346,17 @@
 			
 				<div class="items-about">
 					<ul>
-            <li><img src="assets/img/icon-zona1.png" alt="">Amplio lobby de ingreso</li>
-            <li><img src="assets/img/icon-zona2.png" alt="">Solarium con Zona BBQ</li>
-            <li><img src="assets/img/icon-zona2.png" alt="">Living room con chimenea</li>
-            <li><img src="assets/img/icon-zona6.png" alt=""> Juegos infantiles</li>
+            <li class="wow fadeInUp" data-wow-delay='0.1s'><img src="assets/img/icon-zona1.png" alt="">Amplio lobby de ingreso</li>
+            <li class="wow fadeInUp" data-wow-delay='0.2s'><img src="assets/img/icon-zona2.png" alt="">Solarium con Zona BBQ</li>
+            <li class="wow fadeInUp" data-wow-delay='0.3s'><img src="assets/img/icon-zona2.png" alt="">Living room con chimenea</li>
+            <li class="wow fadeInUp" data-wow-delay='0.4s'><img src="assets/img/icon-zona6.png" alt=""> Juegos infantiles</li>
             <!-- <li><img src="assets/img/icon-zona3.png" alt="">Salón social y Gimnasio</li> -->
-            <li><img src="assets/img/icon-zona1.png" alt="">Salón social</li>
-						<li><img src="assets/img/icon-zona4.png" alt="">Piscina adultos y niños </li>
-						<li><img src="assets/img/icon-zona5.png" alt="">Gimnasio completamente dotado</li>
+            <li class="wow fadeInUp" data-wow-delay='0.5s'><img src="assets/img/icon-zona1.png" alt="">Salón social</li>
+						<li class="wow fadeInUp" data-wow-delay='0.6s'><img src="assets/img/icon-zona4.png" alt="">Piscina adultos y niños </li>
+						<li class="wow fadeInUp" data-wow-delay='0.7s'><img src="assets/img/icon-zona5.png" alt="">Gimnasio completamente dotado</li>
 						
-            <li><img src="assets/img/icon-zona6.png" alt=""> Jacuzzi con hidromasajes</li>
-						<li><img src="assets/img/icon-zona8.png" alt="">Parqueadero de bicicletas</li>
+            <li class="wow fadeInUp" data-wow-delay='0.8s'><img src="assets/img/icon-zona6.png" alt=""> Jacuzzi con hidromasajes</li>
+						<li class="wow fadeInUp" data-wow-delay='0.9s'><img src="assets/img/icon-zona8.png" alt="">Parqueadero de bicicletas</li>
 
 											</ul>
 										</div>
@@ -383,15 +387,15 @@
 						<hr>
             	<div class="items-planos ">
 								<ul>
-		              <li><img class="iconos-planos" src="assets/img/iconos/icon-planos6.png" alt="">2 habitaciones</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos5.png" alt="">2 baños con ducha</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos2.png" alt="">sala</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos1.png" alt="">espacio para comedor</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos1.png" alt="">cocina</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos4.png" alt="">Zona de ropas</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos3.png" alt="">amplio balcón</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos7.png" alt=""> parqueadero en semisótano</li>
-						<li><img class="iconos-planos" src="assets/img/iconos/icon-planos7.png" alt=""> cuarto útil</li>
+		              <li class="wow fadeInUp" data-wow-delay='0.1s'><img class="iconos-planos" src="assets/img/iconos/icon-planos6.png" alt="">2 habitaciones</li>
+						<li class="wow fadeInUp" data-wow-delay='0.2s'><img class="iconos-planos" src="assets/img/iconos/icon-planos5.png" alt="">2 baños con ducha</li>
+						<li class="wow fadeInUp" data-wow-delay='0.3s'><img class="iconos-planos" src="assets/img/iconos/icon-planos2.png" alt="">sala</li>
+						<li class="wow fadeInUp" data-wow-delay='0.4s'><img class="iconos-planos" src="assets/img/iconos/icon-planos1.png" alt="">espacio para comedor</li>
+						<li class="wow fadeInUp" data-wow-delay='0.5s'><img class="iconos-planos" src="assets/img/iconos/icon-planos1.png" alt="">cocina</li>
+						<li class="wow fadeInUp" data-wow-delay='0.6s'><img class="iconos-planos" src="assets/img/iconos/icon-planos4.png" alt="">Zona de ropas</li>
+						<li class="wow fadeInUp" data-wow-delay='0.7s'><img class="iconos-planos" src="assets/img/iconos/icon-planos3.png" alt="">amplio balcón</li>
+						<li><img class="iconos-planos" class="wow fadeInUp" data-wow-delay='0.8s' src="assets/img/iconos/icon-planos7.png" alt=""> parqueadero en semisótano</li>
+						<li class="wow fadeInUp" data-wow-delay='0.9s'><img class="iconos-planos" src="assets/img/iconos/icon-planos7.png" alt=""> cuarto útil</li>
 						</ul>
 					</div>
 							<a href="#formulario" class="btn btn-black btn-form btp">OBTENER INORMACIÓN</a>
@@ -492,17 +496,17 @@
       </div>
       <div class="container-fluid">
         <div class="main-mansory-grid">
-          <img src="assets/img/galeria/1.jpg" alt="" />
+          <img class="wow zoomIn" data-wow-delay='0.1s' src="assets/img/galeria/1.jpg" alt="" />
                 
-          <img src="assets/img/galeria/2.jpg" alt="" />
+          <img class="wow zoomIn" data-wow-delay='0.3s' src="assets/img/galeria/2.jpg" alt="" />
   
-          <img src="assets/img/galeria/3.jpg" alt="" />
-          <img src="assets/img/galeria/4.jpg" alt="" />
+          <img class="wow zoomIn" data-wow-delay='0.6s' src="assets/img/galeria/3.jpg" alt="" />
+          <img class="wow zoomIn" data-wow-delay='0.2s' src="assets/img/galeria/4.jpg" alt="" />
           
-          <img src="assets/img/galeria/5.jpg" alt="" />
-          <img src="assets/img/galeria/image_14.png" alt="" />
+          <img class="wow zoomIn" data-wow-delay='0.5s' src="assets/img/galeria/5.jpg" alt="" />
+          <img class="wow zoomIn" data-wow-delay='0.7s' src="assets/img/galeria/image_14.png" alt="" />
                 
-          <img src="assets/img/galeria/image_11.png" alt="" />
+          <img class="wow zoomIn" data-wow-delay='0.4s' src="assets/img/galeria/image_11.png" alt="" />
               
         </div>
       </div>
@@ -568,13 +572,13 @@
 
 						<div class="grid-slide-galeria">
 						
-								<img src="assets/img/avance-de-obra/1.jpg" alt="" />
+								<img class="wow zoomIn" data-wow-delay='0.1s' src="assets/img/avance-de-obra/1.jpg" alt="" />
 								
-								<img src="assets/img/avance-de-obra/2.jpg" alt="" />
+								<img class="wow zoomIn" data-wow-delay='0.2s' src="assets/img/avance-de-obra/2.jpg" alt="" />
 							
-								<img src="assets/img/avance-de-obra/3.jpg" alt="" />
+								<img class="wow zoomIn" data-wow-delay='0.3s' src="assets/img/avance-de-obra/3.jpg" alt="" />
 
-                <img src="assets/img/avance-de-obra/4.jpg" alt="" />
+                <img class="wow zoomIn" data-wow-delay='0.4s' src="assets/img/avance-de-obra/4.jpg" alt="" />
                 <!-- <img src="assets/img/avance-de-obra/5.jpg" alt="" /> -->
 							
 
@@ -778,6 +782,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
 	<script src="assets/js/slick.min.js"></script>
 	<script src="assets/js/setting-slick.js"></script>
+	<script src='assets/js/wow.min.js'></script>
 	<script src="assets/js/main.js"></script>
 
 
