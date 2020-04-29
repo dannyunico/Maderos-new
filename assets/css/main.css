@@ -475,7 +475,7 @@ a:hover {
 
 .main-banner__text p:nth-child(1) {
 	font-family: "Montserrat";
-	font-size: 51px;
+	font-size: 40px;
 	line-height: 1.3;
 	letter-spacing: 10px;
 	font-weight: 300;
@@ -804,18 +804,30 @@ p.description-detail{
 }
 
 .content-zone__text {
-	font-family: "Montserrat Thin";
-	font-weight: 600;
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-size: 35px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-
+	justify-content: start;
+	position: relative;
 }
 
+.content-zone__text:after{
+	position: absolute;
+	background-color: #fff;
+    border: .5px solid;
+	width: 50px;
+	height: 1px;
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
 .text-plano{
-  text-align: center;
+  text-align: left;
 	font-size: 20px;
-	margin-bottom: 24px;
+	/* margin-bottom: 24px; */
+	padding-left: 50px;
 
 }
 
@@ -859,9 +871,9 @@ p.description-detail{
 	text-transform: capitalize;
 }
 
-.content-zone__text p {
+.description-detail {
 	font-family: 'Montserrat';
-	font-size: 15px;
+	font-size: 15px !important;
 	font-weight: 400;
 }
 
@@ -1068,7 +1080,7 @@ p.description-detail{
     padding-bottom: 100px;}
 
 .items-planos ul li{
-	margin: 5px 0;
+	margin: 10px 0;
 	display: flex;
 }
 
@@ -1084,14 +1096,17 @@ img.iconos-planos{
     color: #fff;
     padding: 14px
 }
-
-.content-zone__text hr {
+.tamaño{
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+.content-zone__text--hr {
     color: #fff;
     border: .5px solid;
     width: 50px;
     margin-left: 5px;
     margin-top: 12px;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 }
 
 .subtitle-general hr {
@@ -1103,7 +1118,7 @@ img.iconos-planos{
     margin-bottom: 30px;
 }
 
-.content-zone .content-zone__text p{
+.content-zone__text p{
 	margin: 0;
 	padding-left: 5px;
 	font-size: 35px;
@@ -1235,7 +1250,7 @@ footer {
 	gap: 80px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	padding: 30px 100px 50px 150px; 
+	padding: 50px 100px 30px 150px; 
 	color: #2d2d2d;
 	font-family:' Montserrat';
 }
@@ -1495,7 +1510,7 @@ footer {
 	bottom: -70px;
 }
 .main-planos__content .slick-dots{
-	bottom: 45px;
+	bottom: 0px;
 	right: 321px;
 }
 .main-zona__content .slick-dots li button:before{
@@ -1547,10 +1562,13 @@ footer {
 }
 
 .texto-planos{
-	padding:0 50px;
+	/* padding:0 50px; */
 	color: #fff
 }
 
+.items-planos ul{
+	padding-left: 0px;
+}
 .texto-planos:before{
 	content: '';
 	width: 45px;
@@ -1576,7 +1594,7 @@ footer {
 .main-mansory-grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: repeat(10,75px);
+	grid-template-rows: repeat(10,60px);
 	grid-gap:20px;
 }
 
@@ -1722,6 +1740,148 @@ footer {
   .items-slider img {
 	  object-fit: none;
 	  object-fit: contain;
-	  height: 300px;
+	  height: 360px;
   }
 
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	position: fixed;
+	/* z-index: 1; */
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .mySlides {
+	display: none;
+	height: 500px;
+  }
+  .mySlides img{
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+  }
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0px !important;
+    user-select: none;
+	-webkit-user-select: none;
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  img {
+	margin-bottom: -4px;
+  }
+  
+  .caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+  
+  img.hover-shadow {
+	transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+#myModal .modal-content{
+	width: 45%;
+}
+
+#myModal .modal-content .close{
+	color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5) !important;
+	padding: 5px !important;
+	opacity: 1;
+}

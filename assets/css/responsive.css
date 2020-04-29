@@ -7,7 +7,7 @@
     height: 100vh;
   }
   .main-banner__text p:nth-child(1){
-    font-size: 45px;
+    font-size: 40px;
   }
   .items{
     gap:0;
@@ -50,7 +50,7 @@
     height: 100vh;
   } */
   .main-banner__text p:nth-child(1){
-    font-size: 45px;
+    font-size: 35px;
   }
   .seccion-zona{
     padding-bottom: 0;
@@ -223,6 +223,12 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .items-slider img{
+    height: 300px;
+  }
+  .text-plano{
+    padding-left: 0;
+  }
   .navbar-nav {
     margin-top: -100px !important;
   }
@@ -469,7 +475,10 @@ p.description-detail {
   .main-banner__text{
     margin: 30px 10px 10px 10px;
     padding: 25px 20px 30px;
-    width: 350px;
+    width: auto !important;
+  }
+  #myModal .modal-content {
+    width: 95%;
   }
 
   .main-banner__text p:nth-child(1){
@@ -492,7 +501,7 @@ p.description-detail {
   }
   .items {
     padding: 0 20px 15px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
   .detail-content{
     padding: 0;
@@ -605,4 +614,21 @@ p.description-detail {
     bottom: 20rem;
   }
   
+}
+
+
+
+@media (min-width: 1500px) and (max-width:  1600px){
+  .main-banner__text p:nth-child(1){
+    font-size: 25px;
+  }
+  .main-banner__text span{
+    font-size: 25px;
+  }
+  .main-banner__text p{
+    font-size: 1.4rem;
+  }
+  .main-banner__text .price p {
+    font-size: 2rem;
+  }
 }
