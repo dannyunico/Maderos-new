@@ -83,7 +83,7 @@
 						</div>
 						<input data-autofill="false" type="hidden" name="field[4][]" value="~|">
 						<div class="_row _checkbox-radio">
-							<input id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
+							<input id="field_4Acepto" required type="checkbox" name="field[4][]" value="Acepto"   >
 							<span>
 								<label for="field_4Acepto">
 									Acepto <a target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf"><span class="politicas-p">politicas y privacidad</span></a>
@@ -99,7 +99,7 @@
 					<div class="_clear-element">
 					</div>
 
-					<div class="_form-thank-you" style="display:none;">
+					<div class="_form-thank-you" style="">
 					</div>
 					<div class="_form-branding" style="display: none;">
 						<div class="_marketing-by">
