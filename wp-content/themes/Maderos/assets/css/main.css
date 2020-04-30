@@ -1232,6 +1232,14 @@
 			font-size: 15px;
 			padding: 0;
 		}
+		.form__item--contact textarea {
+			background-color: transparent !important;
+			border-bottom: 2px solid #ffffff42 !important;
+			font-size: 15px;
+			padding: 0;
+
+			width: 100% !important;
+		}
 
 
 		.content-contact .form__item--contact--bg .form-group input{
@@ -1763,6 +1771,7 @@
 
 		.content-contact input{
 			color: #fff;
+			width: 100%;
 		}
 
 
