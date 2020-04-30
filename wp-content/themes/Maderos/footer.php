@@ -1,239 +1,108 @@
-<section class="main-enlaces" style="">
-		<div class="main-enlaces__content container">
-			<div class="main-enlaces__nivel">
-        <a href="<?php echo bloginfo('url').'/';?>">
-          <div class="main-nivel__logo">
-            <img class="img-enlaces__logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png">
-          </div>
-        </a>
-				<div class="main-enlaces__nivel--text">
-					<p class="enlaces-nivel__text">
-					Respaldo, conocimiento, profesionalismo y calidad en lo que hacemos para entregar siempre lo mejor en cada proyecto a nuestros clientes.</p>
-				</div>
-				<div class="main-enlaces__redes">
-					<div class="main-redes__fb">
-						<a href="https://www.facebook.com/nivelpropiedadraiz" target="_blank">
-							<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/fb.png">
-						</a>
-					</div>
-					<div class="main-redes__instagram">
-						<a href="https://www.instagram.com/nivelpropiedadraiz/" target="_blank">
-							<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png">
-						
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="main-enlaces__menu">
-				<div class="main-enlaces__title">
-					<p class="enlaces-title">
-						MENÚ
-					</p>
-				</div>
-				<ul class="list-menu">
-					<li class="items-menu">
-						<a class="link-enlaces" href="<?php echo bloginfo('url').'/proyecto';?>">
-							Proyectos
-						</a>
-					</li>
-					<li class="items-menu">
-						<a class="link-enlaces" href="<?php echo bloginfo('url').'/blog';?>">
-							Mapa de inmuebles
-						</a>
-					</li>
-					<li class="items-menu">
-						<a class="link-enlaces" href="<?php echo bloginfo('url').'/nosotros';?>">
-							La empresa
-						</a>
-					</li>
-					<li class="items-menu">
-						<a class="link-enlaces" href="<?php echo bloginfo('url').'/servicios';?>">
-							Servicios al cliente
-						</a>
 
-					</li>
-					<!-- <li class="items-menu">
-						<a class="link-enlaces" href="<?php echo bloginfo('url').'/inversion';?>">
-							Invierta desde el exterior
-						</a>
 
-					</li> -->
-					<li class="items-menu">
-						<a class="link-enlaces" href="<?php echo bloginfo('url').'/contacto';?>">
-							Contacto
-						</a>
+	<footer>
+		<div class="footer__grid ">
+			<div class="footer__grid--tem ">
+				<img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
 
-					</li>
-				</ul>
-			</div>
-			<div class="main-enlaces__instagram">
-				<div class="main-enlaces__title">
-					<p class="enlaces-title">
-						INSTAGRAM
-					</p>
-				</div>
-				<div class="main-instagram__content">
-				<!-- SnapWidget -->
-					<script src="https://snapwidget.com/js/snapwidget.js"></script>
-					<iframe src="https://snapwidget.com/embed/817837" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
-					<!-- <div class="main-instagram__img">
-						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_2.png">
-					</div>
-					<div class="main-instagram__img">
-						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_4.png">
-					</div>
-					<div class="main-instagram__img">
-						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_5.png">
-					</div>
-					<div class="main-instagram__img">
-						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_3.png">
-					</div>
-					<div class="main-instagram__img">
-						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_5.png">
-					</div>
-					<div class="main-instagram__img">
-						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_4.png">
-					</div> -->
-				</div>
-			</div>
-			<div class="main-direccion">
-				<div class="main-enlaces__title">
-					<p class="enlaces-title">
-						CONTÁCTANOS
-					</p>
-				</div>
-				<div class="list-direccion__title">
-					<p class="list-title">
-						Dirección
-					</p>
-				</div>
-				<ul class="list-direccion">
-					<li class="items-direccion">
-						<a class="link-enlaces" href="https://www.google.co.ve/maps/place/35+Palms+Business+Tower/@6.2168813,-75.5668583,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429cd631ce80b:0x5dfce9d9dbd52db5!8m2!3d6.216876!4d-75.5646642">
-							Calle 18 No. 35 59, Av. Las Palmas
-						</a>
-
-					</li>
+				<p>El espacio que siempre has querido en un municipio tranquzilo, campestre y cerca a todo lo que necesitas. 
+				</p>
+				<ul>
+					<li><a target="_blank" href="https://www.facebook.com/nivelpropiedadraiz"><img src="<?php echo get_template_directory_uri();?>/assets/img/fb.png" alt=""></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/nivelpropiedadraiz/"><img src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png" alt=""></a></li>
 
 				</ul>
-				<div class="list-direccion__title">
-					<p class="list-title">
-					Teléfono
-					</p>
-				</div>
-				<ul class="list-direccion">
-					<li class="items-direccion">
-						<a class="link-enlaces" href="+574320200">
-							432 02 00
-						</a>
+			</div>
 
-					</li>
-				</ul>
-				<div class="list-direccion__title">
-					<p class="list-title">
-						Horario de atención administrativa
-					</p>
-				</div>
-				<ul class="list-direccion">
-					<li class="items-direccion">
-						<a class="link-enlaces" href="#">
-							8am-6pm, Lunes a Viernes
-						</a>
-
-					</li>
+			<div class="footer__grid--tem">
+				<h3>Menú</h3>
+				<ul>
+          <li><a href="#detalle-proyecto">Detalle de proyecto</a></li>
+          <li><a href="#acerca">Acerca del proyecto</a></li>
+          <li><a href="#video">Video</a></li>
+					<li><a href="#zonas-proyecto">Zonas comunes</a></li>
+					<li><a href="#planos-proyecto">Planos del proyecto</a></li>
+					<li><a href="#galeria">Galería</a></li>
+					<li><a href="#avances-obra">Avances de la obra</a></li>
+					<li><a href="#ubicacion">Ubicación</a></li>
+					<li><a href="#formulario">Contacto</a></li>
+					<!-- <li><a href="#formulario">Formulario</a></li> -->
+					
 				</ul>
 			</div>
-		</div>
-		</div>
-	</section>
-	<footer class="main-end">
-		<div class="main-end__text">
-			<p class="end-text">
-				Copyright © 2020 Branch
-			</p>
-		</div>
-		<div class="main-icono__footer">
-			<a href="#">
-				<img class="icono-footer" src="<?php echo get_template_directory_uri();?>/assets/img/3.png">
-			</a>
+			<div class="footer__grid--tem">
+
+
+				<h3 class="mb-3">Contáctanos
+				</h3>
+				<ul>
+					<div>
+						<h3>Teléfono</h3>
+					<li>
+						<a href="tel:5411332">
+							+ 541 13 32</a>
+					</li>
+					</div>
+					<div><h3>Celular</h3>
+						<li>
+							<a href="tel:3165050087">
+	
+								+ 316 505 00 87</a>
+						</li>
+					</div>
+					<div>
+						<h3>Email</h3>
+					<li>
+						<a href="">maderos@nivel.com.co</a>
+					</li>
+					</div>
+					<div>
+						<li><a class="footer__grid--tem_btn" target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/1751 MADEROS APTOS - adaptación presentacion_baja.pdf">descargar brochure</a></li>
+					</div>
+				</ul>
+			</div>
 		</div>
 	</footer>
 
-    <!-- Modal Video Solutions -->
-  <?php $args = array( 'post_type' => 'soluciones'); ?>   
-  <?php $loop = new WP_Query( $args ); ?>
-  <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-    <div class="modal fade videoSolutions" id="videoSolutions-<?php the_id();?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-  
-          <div class="modal-body">
-        
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <div class="main-video__img video-full">
-          <!-- <div class="">
-            <div class="main-details__video--icono">
-                
-                </div>
-              </div> -->
-              <?php if(get_field('imagen')): ?>
-                <img class="img-video " src="<?php the_field('imagen') ?>">
-              <?php else: ?>
-                <video id="modal-video" controls class="img-video" src="<?php the_field('video') ?>"></video>
-              <?php endif; ?>
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </div>  
-  <?php endwhile; ?>
+
+	<div class="btns">
+		<a href="http://api.whatsapp.com/send?phone=573165050087" download target="blank" ><img src="<?php echo get_template_directory_uri();?>/assets/img/2.png" alt=""></a>
+		<a href="#banner"><img src="<?php echo get_template_directory_uri();?>/assets/img/1.png" alt=""></a>
+
+	</div>
 
 
 
-   <!-- Modal Video Solutions -->
-   <?php $args = array( 'post_type' => 'proyectos'); ?>   
-  <?php $loop = new WP_Query( $args ); ?>
-  <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+	<!-- Modal -->
+	<div aria-hidden='true' class='modal fade modal-video' id='galleryModal' role='dialog' tabindex='-1'>
+		<div class='modal-dialog' role='document'>
+		  <div class='modal-content'>
+			<div class='modal-body'>
+			  <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+				<span aria-hidden='true' class='fa fa-close'></span>
+			  </button>
+			  <video controls=''>
+				<source src='<?php echo get_template_directory_uri();?>/assets/img/maderos-del-retiro-constructora-nivel.mp4' type='video/webm'>
+			  </video>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	<script src='https://use.fontawesome.com/70a3cb5d53.js'></script>
+	<script src="<?php echo get_template_directory_uri();?>/assets/js/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+	<script src="<?php echo get_template_directory_uri();?>/assets/js/slick.min.js"></script>
+	<script src="<?php echo get_template_directory_uri();?>/assets/js/setting-slick.js"></script>
+	<script src='<?php echo get_template_directory_uri();?>/assets/js/wow.min.js'></script>
+	<script src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
 
-    <div class="modal fade videoSolutions" id="videoProject-<?php the_id();?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-  
-          <div class="modal-body">
-        
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <div class="main-video__img video-full">
-          <!-- <div class="">
-            <div class="main-details__video--icono">
-                
-                </div>
-              </div> -->
-            <?php if(get_field('carga_de_video')):?>
-				<video id="modal-video" controls autoplay class="img-video" src="<?php the_field('carga_de_video')?>">
-				</video>
-			<?php else:?>
-				<img class="img-video"  src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
-			<?php endif; ?>
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </div>  
-  <?php endwhile; ?>
-	<script src="<?php echo get_template_directory_uri();?>/assets/js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/slick.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/settings-slick.js"></script>
 
-  <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
-  <?php wp_footer(); ?>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 
 </html>

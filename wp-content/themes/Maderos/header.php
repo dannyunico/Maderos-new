@@ -1,95 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no">
-	<meta name="author" content="">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content=" ">
-	<!-- meta character set -->
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content='#212121' name='theme-color'>
-	<meta content='website' property='og:type'>
-	<meta content='Nivel' property='og:title'>
-	<meta content=''>
-  <meta content='' property='og:url'>
-  
-	<title><?php wp_title('|', true, 'right'); ?></title>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/offcanvas.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/slick-theme.css">
-	<link rel="stylesheet" type="text/css"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/contacto.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/responsive.css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet"> -->
-  <?php wp_head(); ?>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Maderos</title>
+  <link href="<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/fonts.css">
+  <link href="<?php echo get_template_directory_uri();?>/assets/css/slick.css" rel="stylesheet" />
+  <link href="<?php echo get_template_directory_uri();?>/assets/css/slick-theme.css" rel="stylesheet" />
+  <link href="<?php echo get_template_directory_uri();?>/assets/css/font-awesome.css" rel="stylesheet" />
+  <link href="<?php echo get_template_directory_uri();?>/assets/css/animate/animate.css" rel='stylesheet'>
+  <link href="<?php echo get_template_directory_uri();?>/assets/css/main.css" rel="stylesheet" />
+  <link href="<?php echo get_template_directory_uri();?>/assets/css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
-  <header id="home">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-js">
-
-      <div class="container">
+  <header>
+    <nav class="navbar fixed-top navbar-fixed-js">
+      <div class="container-nav">
         <div class="main-brand">
-          <a class="navbar-brand" href="<?php echo bloginfo('url').'/';?>">
-            <img class="img-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png">
+          <a class="navbar-brand" href="index.html">
+            <img id="iso" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" />
           </a>
-          <button class="navbar-toggler p-2  hamburger hamburger--elastic ml-autos" data-toggle="offcanvas"
-            type="button">
+          <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
             </span>
-
           </button>
         </div>
+        <div class="navbar-collapse offcanvas-collapse">
+          <img id="img-pd" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" />
+          <ul class="navbar-nav m-auto">
 
-        <div class="navbar-collapse offcanvas-collapse">ss
-          <div class="navbar-nav mr-autos">
-            <a href="<?php echo bloginfo('url').'/';?>" class="main-logo__collapse">
-              <img class="logo-collapse" src="<?php echo get_template_directory_uri();?>/assets/img/logo_4.png">
-            </a>
-            <li class="nav-item">
-              <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/';?>">Inicio</a>
+            <li class="nav-item ">
+              <a class="nav-link  " href="#detalle-proyecto">detalle de PROYECTO</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  " href="#acerca">Acerca del PROYECTO</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  " href="#video">video</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/proyecto';?>">Proyectos</a>
+              <a class="nav-link " href="#zonas-proyecto">ZONAS COMUNES</a>
+
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link " href="#planos-proyecto">PLANOS DEL PROYECTO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/blog';?>">Blog</a>
+              <a class="nav-link " href="#galeria">GALERÍA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/nosotros';?>">La empresa</a>
+              <a class="nav-link " href="#avances-obra">Avances de la obra</a>
             </li>
+            
+      <li class="nav-item">
+        <a class="nav-link" href="#ubicacion">UBICACIÓN</a>
+</li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/servicios';?>">Servicio al cliente</a>
+              <a class="nav-link " href="#formulario">contacto</a>
             </li>
 
-            <!--<li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/inversion';?>">invierte desde el
-                exterior</a>
-            </li>-->
-            <li class="nav-item nav-item--last">
-              <a class="nav-link " href="<?php echo bloginfo('url').'/contacto';?>">contacto</a>
-            </li>
-            <li class="mt-4 pb-4">
-              <a href="https://www.facebook.com/nivelpropiedadraiz" target="_blank" class="mr-2">
-                <img src="<?php echo get_template_directory_uri();?>/assets/img/fb_2.png" alt="">
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#formulario">formulario</a>
+            </li> -->
+          </ul>
 
-              </a>
-              <a href="https://www.instagram.com/nivelpropiedadraiz/" target="_blank" class="mr-2">
-                <img src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png" alt="">
-
-              </a>
-            </li>
-          </div>
         </div>
       </div>
-
     </nav>
-	</header>
+  </header>
+  
+  
