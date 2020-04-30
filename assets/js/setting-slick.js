@@ -80,6 +80,8 @@ $('.banner-slider').slick({
 });
 
 
+
+
 $('.main-zona__content').slick({
   infinite: true,
   autoplay: false,
@@ -169,10 +171,10 @@ $(document).ready(function() {
 
 
 
-$('.main-testimonios__content').slick({
+$('.grid-slide-galeria').slick({
   infinite: true,
-  slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToShow: 3,
+  slidesToScroll: 1,
   dots: false,
   arrows: true,
   responsive: [{

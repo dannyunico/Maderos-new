@@ -425,7 +425,7 @@ a:hover {
 	width: 100%;
 	height: unset;
 	object-fit: none;
-	object-position: top;
+	object-position: center;
 	object-fit: cover;
 	height: 92vh;
 }
@@ -983,7 +983,7 @@ p.description-detail{
 	float: left;
 	width: 25%;
 	padding: 10px;
-	height: 280px;
+	height: 350px;
 	object-fit: cover;
 }
 .main-galery__grid {
@@ -1152,7 +1152,18 @@ img.iconos-planos{
 .main-galery__avance{
 	background: #2d2d2d;
 	padding: 50px 100px 90px;
-	height: 500px;
+	height: 570px;
+}
+.grid-slide-galeria .slick-next, .slick-prev{
+	bottom: 9rem !important;
+}
+
+.grid-slide-galeria .slick-prev {
+	left: 0px;
+}
+
+.grid-slide-galeria .slick-next {
+    right: -45px;
 }
 
 .main-galery .title-general hr{
