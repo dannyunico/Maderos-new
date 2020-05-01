@@ -1069,7 +1069,7 @@ height: 100%;
 .main-zona{
 padding-top: 25px;
 display: grid;
-grid-template-columns: 52% 48%;
+grid-template-columns: 51% 49%;
 padding-bottom: 100px;}
 
 .items-planos ul li{
@@ -1769,10 +1769,10 @@ a:hover{
 }
 
 /* The Close Button */
-.close {
+#videoModal .close {
 	color: white;
 	position: absolute;
-	top: 10px;
+	top: -20px !important;
 	right: 25px;
 	font-size: 35px;
 	font-weight: bold;
@@ -2166,3 +2166,19 @@ margin-left: 15px;
 	height: 64px;
   }
   
+.modal-body p{
+	height: 460px !important;
+}
+
+
+.content-image__mobile{
+	width: 100%;
+	height: 250px;
+	margin-bottom: 10px;
+	
+}
+.content-image__mobile img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

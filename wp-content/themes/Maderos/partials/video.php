@@ -1,6 +1,7 @@
 
 <section class='main-video' id='video' style='background-image: url(<?php the_field( 'imagen_de_presentacion' ); ?>);'>
 	<h3><?php the_field( 'titulo_del_video' ); ?></h3>
+	<!-- < ?php the_field( 'etiqueta_html' ); ?> -->
 	<div class='main-video__trigger' data-target='#videoModal' data-toggle='modal'>
 		<img class='wow zoomIn' src='<?php echo get_template_directory_uri();?>/assets/img/iconos/play.png'>
 	</div>

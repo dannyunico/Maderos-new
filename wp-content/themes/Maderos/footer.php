@@ -15,7 +15,7 @@
 		</div>
 
 		<div class="footer__grid--tem">
-			<h3>Menú</h3>
+			<h3 class="mb-3">Menú</h3>
 			<ul>
 				<li><a href="#detalle-proyecto">Detalle de proyecto</a></li>
 				<li><a href="#acerca">Acerca del proyecto</a></li>
