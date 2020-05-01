@@ -53,7 +53,7 @@
 				<div>
 					<h3>Email</h3>
 					<li>
-						<a href="">maderos@nivel.com.co</a>
+						<a href="mailto:maderos@nivel.com.co">maderos@nivel.com.co</a>
 					</li>
 				</div>
 				<div>
@@ -91,7 +91,7 @@
 	</div>
 
 
-
+	<?php wp_reset_postdata(); ?>
 
 
 
