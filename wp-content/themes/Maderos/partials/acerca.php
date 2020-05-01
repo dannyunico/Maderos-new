@@ -7,13 +7,13 @@
 			<div class="content-about">
 				<div class="text-section-title">
 					<div class="subtitle-general">
-						<p> acerca del proyecto</p>
+						<p> <?php the_field( 'titulo_acerca_del_proyecto' ); ?></p>
 						<hr>
 					</div>
 				</div>
-				<div class="text-section-subtitle ">Hoy empieza tú mejor historia</div>
+				<div class="text-section-subtitle "><?php the_field( 'subtitulo_acerca_del_proyecto' ); ?></div>
 				<div class="text-section-content wow fadeInUp" data-wow-delay='0.5s'>
-					Un proyecto de apartamentos, locales y oficinas en la mejor ubicación de El Retiro, a pocas cuadras del parque principal, cerca a todo lo que necesitas y con la tranquilidad de un municipio campestre. Elige vivir en ese lugar que siempre has soñado, cerca a Medellín y con gran valorización. 
+					<?php the_field( 'descripcion_acerca_del_proyecto' ); ?>
 				</div>
 			</div>
 		</div>
