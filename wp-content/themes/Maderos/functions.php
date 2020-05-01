@@ -24,6 +24,8 @@ function excerpt($limit) {
 /*******truncar cantidad de palabras******/
 
 
+
+
 // Register Custom Banner Home
 function Banner() {
 
