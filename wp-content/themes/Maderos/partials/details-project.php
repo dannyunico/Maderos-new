@@ -1,5 +1,5 @@
 
-<section class="p-50" id="detalle-proyecto"> 
+<section class="p-50" > 
 
 	<div class="content-zone__item">
 		<div class="content-zone__text ">

@@ -1,4 +1,4 @@
-<section class="p-50" id="galeria">
+<section class="gallery-grid p-50" >
 	<div class="main-galery">
 		<div class="title-general">
 			<h3>Galería</h3>
@@ -71,7 +71,7 @@
 
 		</div>
 	</div>
-
+<div  id="avances-obra"></div>
 
 </div>
 

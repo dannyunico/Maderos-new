@@ -433,6 +433,7 @@ addEvent(form_to_submit, 'submit', form_submit);
 <script>
 	new WOW().init();
 </script>
+</div>
 </body>
 
 </html>

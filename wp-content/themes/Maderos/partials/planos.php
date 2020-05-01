@@ -1,4 +1,4 @@
-<section id="planos-proyecto"> 
+<section > 
 	<div class="content-zone row">
 		<div class="main-plan col-12">
 			<div class="main-planos__content">
@@ -118,4 +118,5 @@
 			</div>
 		</div>
 	</div>
+	<div id="galeria"></div>
 </section>

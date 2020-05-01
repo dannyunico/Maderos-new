@@ -164,6 +164,7 @@
 
 
 				</form> -->
+				<div id="detalle-proyecto"></div>
 			</div>
 		</div>
 	</section>

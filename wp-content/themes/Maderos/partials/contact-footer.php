@@ -1,4 +1,4 @@
-  <section id="formulario">
+  <section >
     <div class="main-contact" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/image.png);">
 
       <div class="form__item form__item--contact">

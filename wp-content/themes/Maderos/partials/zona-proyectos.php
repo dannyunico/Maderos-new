@@ -40,5 +40,6 @@
 				</div>
 			</div>
 		</div>
+		<div id="planos-proyecto"></div>
 	</div>
 </section>

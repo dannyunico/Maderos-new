@@ -1,4 +1,4 @@
-<section id="avances-obra">
+<section>
 	<div class="main-galery__avance">
 		<div class="title-general">
 			<h3>AVANCE DE LA OBRA</h3>
@@ -27,7 +27,7 @@
 				</div>
 
 			</div>
-
+			<div id="ubicacion"></div>
 
 		</div>
 	</section>
