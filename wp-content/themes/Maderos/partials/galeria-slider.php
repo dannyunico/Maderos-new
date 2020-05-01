@@ -11,15 +11,11 @@
 
 
 					<div class="grid-slide-galeria">
-
-						<img class="wow zoomIn" data-wow-delay='0.1s' src="<?php echo get_template_directory_uri();?>/assets/img/avance-de-obra/1.jpg" alt="" />
-
-						<img class="wow zoomIn" data-wow-delay='0.2s' src="<?php echo get_template_directory_uri();?>/assets/img/avance-de-obra/2.jpg" alt="" />
-
-						<img class="wow zoomIn" data-wow-delay='0.3s' src="<?php echo get_template_directory_uri();?>/assets/img/avance-de-obra/3.jpg" alt="" />
-
-						<img class="wow zoomIn" data-wow-delay='0.4s' src="<?php echo get_template_directory_uri();?>/assets/img/avance-de-obra/4.jpg" alt="" />
-						<!-- <img src="<?php echo get_template_directory_uri();?>/assets/img/avance-de-obra/5.jpg" alt="" /> -->
+						<?php $args = array( 'post_type' => 'Avance');?>   
+						<?php $loop = new WP_Query( $args ); ?>
+						<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+							<img class="wow zoomIn" data-wow-delay='0.1s' src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" />
+						<?php endwhile; ?>
 
 
 					</div>

@@ -24,6 +24,8 @@ function excerpt($limit) {
 /*******truncar cantidad de palabras******/
 
 
+
+
 // Register Custom Banner Home
 function Banner() {
 
@@ -31,7 +33,7 @@ function Banner() {
 		'name'                  => _x( 'Banner ', 'Post Type General Name', 'nivel' ),
 		'singular_name'         => _x( 'Banner', 'Post Type Singular Name', 'nivel' ),
 		'menu_name'             => __( 'Banners', 'nivel' ),
-		'name_admin_bar'        => __( 'Post Type', 'nivel' ),
+		'name_admin_bar'        => __( 'Banners', 'nivel' ),
 		'archives'              => __( 'Archivo', 'nivel' ),
 		'attributes'            => __( 'Atributos', 'nivel' ),
 		'parent_item_colon'     => __( 'Artículo principal', 'nivel' ),
@@ -83,13 +85,13 @@ add_action( 'init', 'Banner', 0 );
 
 
 // Register Custom Banner Home
-function QueHacemos() {
+function PlanosDelProyecto() {
 
 	$labels = array(
-		'name'                  => _x( 'Lo que hacemos ', 'Post Type General Name', 'nivel' ),
-		'singular_name'         => _x( 'Lo que Hacemos', 'Post Type Singular Name', 'nivel' ),
-		'menu_name'             => __( 'Lo que hacemos', 'nivel' ),
-		'name_admin_bar'        => __( 'Post Type', 'nivel' ),
+		'name'                  => _x( 'Planos del Proyecto ', 'Post Type General Name', 'nivel' ),
+		'singular_name'         => _x( 'Planos del Proyecto', 'Post Type Singular Name', 'nivel' ),
+		'menu_name'             => __( 'Planos del Proyecto', 'nivel' ),
+		'name_admin_bar'        => __( 'Planos del Proyecto', 'nivel' ),
 		'archives'              => __( 'Archivo', 'nivel' ),
 		'attributes'            => __( 'Atributos', 'nivel' ),
 		'parent_item_colon'     => __( 'Artículo principal', 'nivel' ),
@@ -115,10 +117,10 @@ function QueHacemos() {
 		'filter_items_list'     => __( 'Lista de elementos de filtro', 'nivel' ),
 	);
 	$args = array(
-		'label'                 => __( 'Lo que hacemos', 'nivel' ),
+		'label'                 => __( 'Planos del Proyecto', 'nivel' ),
 		'description'           => __( 'Post Type Description', 'nivel' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail' ),
+		'supports'              => array( 'title', 'thumbnail' ),
 		'taxonomies'            => array(  ),
 		'hierarchical'          => false,
 		'public'                => true,
@@ -134,21 +136,21 @@ function QueHacemos() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'QueHacemos', $args );
+	register_post_type( 'PlanosDelProyecto', $args );
 
 }
-add_action( 'init', 'QueHacemos', 0 );
+add_action( 'init', 'PlanosDelProyecto', 0 );
 
 
 
-// Register Custom Soluciones
-function Soluciones() {
+// Register Custom Avance
+function Avance() {
 
 	$labels = array(
-		'name'                  => _x( 'Soluciones a medida', 'Post Type General Name', 'nivel' ),
-		'singular_name'         => _x( 'Soluciones a medida', 'Post Type Singular Name', 'nivel' ),
-		'menu_name'             => __( 'Soluciones a medida', 'nivel' ),
-		'name_admin_bar'        => __( 'Post Type', 'nivel' ),
+		'name'                  => _x( 'Avances de la obra', 'Post Type General Name', 'nivel' ),
+		'singular_name'         => _x( 'Avances de la obra', 'Post Type Singular Name', 'nivel' ),
+		'menu_name'             => __( 'Avances de la obra', 'nivel' ),
+		'name_admin_bar'        => __( 'Avances de la obra', 'nivel' ),
 		'archives'              => __( 'Archivo', 'nivel' ),
 		'attributes'            => __( 'Atributos', 'nivel' ),
 		'parent_item_colon'     => __( 'Artículo principal', 'nivel' ),
@@ -174,10 +176,10 @@ function Soluciones() {
 		'filter_items_list'     => __( 'Lista de elementos de filtro', 'nivel' ),
 	);
 	$args = array(
-		'label'                 => __( 'Soluciones a medida', 'nivel' ),
+		'label'                 => __( 'Avances de la obra', 'nivel' ),
 		'description'           => __( 'Post Type Description', 'nivel' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', '', '' ),
+		'supports'              => array( 'title', 'thumbnail' ),
 		'taxonomies'            => array(  ),
 		'hierarchical'          => false,
 		'public'                => true,
@@ -193,10 +195,10 @@ function Soluciones() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'Soluciones', $args );
+	register_post_type( 'Avance', $args );
 
 }
-add_action( 'init', 'Soluciones', 0 );
+add_action( 'init', 'Avance', 0 );
 
 // Register Custom Banner Home
 function InversionSteps() {
@@ -260,23 +262,23 @@ add_action( 'init', 'InversionSteps', 0 );
 
 // colocar en el title el nombre de la page 
 function wpdocs_filter_wp_title( $title, $sep ) {
-    global $paged, $page;
- 
-    if ( is_feed() )
-        return $title;
- 
-    // Add the site name.
-    $title .= get_bloginfo( 'name' );
- 
-    // Add the site description for the home/front page.
-    $site_description = get_bloginfo( 'description', 'display' );
-    if ( $site_description && ( is_home() || is_front_page() ) )
-        $title = "$title $sep $site_description";
- 
-    // Add a page number if necessary.
-    if ( $paged >= 2 || $page >= 2 )
-        $title = "$title $sep " . sprintf( __( 'Page %s', 'twentytwelve' ), max( $paged, $page ) );
+	global $paged, $page;
 
-    return $title;
+	if ( is_feed() )
+		return $title;
+
+    // Add the site name.
+	$title .= get_bloginfo( 'name' );
+
+    // Add the site description for the home/front page.
+	$site_description = get_bloginfo( 'description', 'display' );
+	if ( $site_description && ( is_home() || is_front_page() ) )
+		$title = "$title $sep $site_description";
+
+    // Add a page number if necessary.
+	if ( $paged >= 2 || $page >= 2 )
+		$title = "$title $sep " . sprintf( __( 'Page %s', 'twentytwelve' ), max( $paged, $page ) );
+
+	return $title;
 }
 add_filter( 'wp_title', 'wpdocs_filter_wp_title', 10, 2 );
