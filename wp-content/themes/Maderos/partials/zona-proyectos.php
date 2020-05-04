@@ -25,7 +25,7 @@
 				<div class="items-about">
 					<ul>
 						<li class="wow fadeInUp" data-wow-delay='0.1s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona1.png" alt="">Amplio lobby de ingreso</li>
-						<li class="wow fadeInUp" data-wow-delay='0.2s'><img src="<?php echo get_template_directory_uri();?>/assets/img/bbq (2).png" alt="">Solarium con Zona BBQ</li>
+						<li class="wow fadeInUp" data-wow-delay='0.2s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona2.png" alt="">Solarium con Zona BBQ</li>
 						<li class="wow fadeInUp" data-wow-delay='0.3s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona2.png" alt="">Living room con chimenea</li>
 						<li class="wow fadeInUp" data-wow-delay='0.4s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona6.png" alt=""> Juegos infantiles</li>
 						<!-- <li><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona3.png" alt="">Salón social y Gimnasio</li> -->
