@@ -197,7 +197,7 @@
 	background: rgba(0, 0, 0, 0.8) !important;
 	top: initial;
 	/* bottom: 18rem !important; */
-	bottom: 23rem !important;
+	bottom: 16rem !important;
 	cursor: pointer;
 	transition: all 500ms ease;
 	transform: translateX(-50%);
@@ -459,7 +459,7 @@ width: 398px;
 
 .main-banner__text p {
 color:rgb(45, 45, 45);
-font-size: 1.7rem;
+font-size: 1.3rem;
 line-height: 1.2;
 font-family: 'Montserrat', sans-serif;
 font-weight: 500;
@@ -496,7 +496,7 @@ margin-bottom: 30px;
 
 
 .main-banner__text span {
-font-size: 30px;
+font-size: 20px;
 font-family: 'Montserrat', sans-serif;
 font-weight: 300;
 letter-spacing: 3px;
@@ -1465,7 +1465,17 @@ a:hover{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	position: relative;
 }
+/* .main-video:after{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.19);
+} */
 
 .main-video h3 {
 	color: #fff;
@@ -1502,7 +1512,7 @@ a:hover{
 	bottom: -70px;
 }
 .main-planos__content .slick-dots{
-	bottom: 0px;
+	bottom: -20px;
 	right: 321px;
 }
 .main-zona__content .slick-dots li button:before{

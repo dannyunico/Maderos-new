@@ -25,7 +25,7 @@
 				<div class="items-about">
 					<ul>
 						<li class="wow fadeInUp" data-wow-delay='0.1s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona1.png" alt="">Amplio lobby de ingreso</li>
-						<li class="wow fadeInUp" data-wow-delay='0.2s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona2.png" alt="">Solarium con Zona BBQ</li>
+						<li class="wow fadeInUp" data-wow-delay='0.2s'><img src="<?php echo get_template_directory_uri();?>/assets/img/bbq.png" alt="">Solarium con Zona BBQ</li>
 						<li class="wow fadeInUp" data-wow-delay='0.3s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona2.png" alt="">Living room con chimenea</li>
 						<li class="wow fadeInUp" data-wow-delay='0.4s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona6.png" alt=""> Juegos infantiles</li>
 						<!-- <li><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona3.png" alt="">Salón social y Gimnasio</li> -->
@@ -33,7 +33,7 @@
 						<li class="wow fadeInUp" data-wow-delay='0.6s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona4.png" alt="">Piscina adultos y niños </li>
 						<li class="wow fadeInUp" data-wow-delay='0.7s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona5.png" alt="">Gimnasio completamente dotado</li>
 
-						<li class="wow fadeInUp" data-wow-delay='0.8s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona6.png" alt=""> Jacuzzi con hidromasajes</li>
+						<li class="wow fadeInUp" data-wow-delay='0.8s'><img src="<?php echo get_template_directory_uri();?>/assets/img/Jacuzzi-con-hidromasajes.png" alt=""> Jacuzzi con hidromasajes</li>
 						<li class="wow fadeInUp" data-wow-delay='0.9s'><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-zona8.png" alt="">Parqueadero de bicicletas</li>
 
 					</ul>

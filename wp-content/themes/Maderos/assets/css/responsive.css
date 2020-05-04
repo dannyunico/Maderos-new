@@ -77,7 +77,7 @@
     height: 100vh;
   } */
   .main-banner__text p:nth-child(1){
-    font-size: 35px;
+    font-size: 25px;
   }
   .seccion-zona{
     padding-bottom: 0;
