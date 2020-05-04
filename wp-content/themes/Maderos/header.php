@@ -73,60 +73,6 @@
           </ul>
     </nav>
   </header>
-  <!-- <header>
-    <nav class="navbar fixed-top navbar-fixed-js">
-      <div class="container-nav">
-        <div class="main-brand">
-          <a class="navbar-brand" href="index.html">
-            <img id="iso" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" />
-          </a>
-          <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-        </div>
-        <div class="navbar-collapse offcanvas-collapse">
-          <img id="img-pd" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" />
-          <ul class="navbar-nav m-auto">
-
-            <li class="nav-item ">
-              <a class="nav-link  " href="#detalle-proyecto">detalle de PROYECTO</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link  " href="#acerca">Acerca del PROYECTO</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link  " href="#video">video</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#zonas-proyecto">ZONAS COMUNES</a>
-
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link " href="#planos-proyecto">PLANOS DEL PROYECTO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#galeria">GALERÍA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#avances-obra">Avances de la obra</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#ubicacion">UBICACIÓN</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#formulario">contacto</a>
-            </li>
-
-          </ul>
-
-        </div>
-      </div>
-    </nav>
-  </header>
   
   
   
