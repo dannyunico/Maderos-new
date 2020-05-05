@@ -39,16 +39,7 @@
             <li class="nav-item ">
               <a class="nav-link  " href="#detalle-proyecto">detalle de PROYECTO</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link  " href="#acerca">Acerca del PROYECTO</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link  " href="#video">video</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#zonas-proyecto">ZONAS COMUNES</a>
-
-            </li>
+ 
             
             <li class="nav-item">
               <a class="nav-link " href="#planos-proyecto">PLANOS DEL PROYECTO</a>
@@ -56,20 +47,12 @@
             <li class="nav-item">
               <a class="nav-link " href="#galeria">GALERÍA</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#avances-obra">Avances de la obra</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#ubicacion">UBICACIÓN</a>
-            </li>
+      
             <li class="nav-item">
               <a class="nav-link " href="#formulario">contacto</a>
             </li>
 
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#formulario">formulario</a>
-            </li> -->
+            
           </ul>
     </nav>
   </header>

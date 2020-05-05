@@ -3,7 +3,10 @@
 <footer>
 	<div class="footer__grid ">
 		<div class="footer__grid--tem ">
-			<img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
+		<div class="footer__grid--img">
+			<img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="Logo Maderos">
+			<img src="<?php echo get_template_directory_uri();?>/assets/img/logo-nivel.png" alt="Logo Nivel">		
+		</div>
 
 			<p>El espacio que siempre has querido en un municipio tranquzilo, campestre y cerca a todo lo que necesitas. 
 			</p>

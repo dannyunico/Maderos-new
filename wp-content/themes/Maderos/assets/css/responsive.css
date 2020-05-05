@@ -3,6 +3,18 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .next {
+    right: 10rem;
+    
+  }
+  .prev{
+    left: 10rem;
+  }
+
+  #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+    top: -5rem;
+    right: -16rem;
+  }
   .main-banner {
     position: relative;
     height: 100vh;
@@ -92,11 +104,27 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .grid-slide-galeria .slick-next {
+    right: -30px;
+  }
+  .next {
+    right: 6rem;
+    
+  }
+  .prev{
+    left: 6rem;
+  }
+
+  #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+    top: -5rem;
+    right: -12rem;
+  }
   .offcanvas-collapse{
     top: 0px;
   }
   .offcanvas-collapse.open ul{
     padding-top: 80px !important;
+    padding-left: 15px;
   }
   .navbar{
     height: 90px;
@@ -279,6 +307,21 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .next {
+    right: 4rem;
+    
+  }
+  .prev{
+    left: 4rem;
+  }
+
+  #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+    top: -5rem;
+    right: 0rem;
+  }
+  #myModal .modal-content, #myModal1 .modal-content, #myModal2 .modal-content {
+    width: 95%;
+  }
  
   .items-slider img{
     height: 300px;
@@ -292,6 +335,7 @@
   }
   .offcanvas-collapse.open ul{
     padding-top: 80px !important;
+    padding-left: 15px;
   }
   .navbar{
     height: 90px;

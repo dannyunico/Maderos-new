@@ -2,7 +2,8 @@
 	<div class="content-zone row">
 		<div class="main-plan col-12">
 			<div class="main-planos__content">
-				<?php $args = array( 'post_type' => 'PlanosDelProyecto');?>   
+				<?php $args = array( 'post_type' => 'PlanosDelProyecto');
+				$planos = 1;?>   
 				<?php $loop = new WP_Query( $args ); ?>
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="main-planos__items">
@@ -11,7 +12,7 @@
 								<p class="content-zone__text">PLANOS DEL PROYECTO</p>
 								<hr class="content-zone__text--hr">
 							</div>
-							<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+							<img onclick="openModal2();currentSlide2(<?php echo $planos  ?>)"  src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
 						</div>
 						<div >
 							<p class="tamaño"><strong class="texto-planos"><?php the_title(); ?></strong></p>
@@ -34,7 +35,7 @@
 						</div>
 					</div>
 
-				<?php endwhile; ?>
+				<?php $planos++; endwhile; ?>
 				
 				
 
@@ -46,3 +47,29 @@
 	</div>
 	<div id="galeria"></div>
 </section>
+
+
+
+<div id="myModal2" class="modal">
+
+
+	<div class="modal-content">
+		<button aria-label='Close' class='close' data-dismiss='modal' type='button' onclick="closeModal2()">
+			<span aria-hidden='true' class='fa fa-close'></span>
+		</button>
+		<?php $args = array( 'post_type' => 'PlanosDelProyecto');?>   
+		<?php $loop = new WP_Query( $args ); ?>
+		<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+			<div class="mySlides2">
+				<img src="<?php echo get_the_post_thumbnail_url(); ?>" style="width:100%">
+			</div>
+		<?php endwhile; ?>
+
+
+		<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+
+
+	</div>
+</div>

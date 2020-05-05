@@ -425,6 +425,12 @@ margin-left: 6rem !important;
 	justify-content: space-between;
 } */
 
+
+.navbar-collapse {
+    flex-basis: auto !important;
+    flex-grow: 0 !important;
+    align-items: center !important;
+}
 .main-banner__img img {
 width: 100%;
 height: unset;
@@ -1798,14 +1804,14 @@ a:hover{
 	cursor: pointer;
 }
 
-.mySlides {
+.mySlides, .mySlides1, .mySlides2 {
 	display: none;
 	height: 500px;
 }
-.mySlides img{
+.mySlides img, .mySlides1 img,.mySlides2 img{
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
 }
 .cursor {
 	cursor: pointer;
@@ -1816,7 +1822,7 @@ a:hover{
 .next {
 	cursor: pointer;
 	position: absolute;
-	top: 55%;
+	top: 35rem;
 	width: auto;
 	padding: 16px;
 	margin-top: -50px;
@@ -1827,13 +1833,16 @@ a:hover{
 	border-radius: 0px !important;
 	user-select: none;
 	-webkit-user-select: none;
-	background-color: rgba(0, 0, 0, 0.8);
+	/* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 /* Position the "next button" to the right */
 .next {
-	right: 0;
+	right: 15rem;
 	border-radius: 3px 0 0 3px;
+}
+.prev{
+	left: 15rem;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -1879,15 +1888,17 @@ img.hover-shadow {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#myModal .modal-content{
+#myModal .modal-content, #myModal1 .modal-content,#myModal2 .modal-content{
 	width: 45%;
+	background-color: transparent;
+	border: none;
 }
 
-#myModal .modal-content .close{
+#myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close{
 	color: white;
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: -5rem;
+    right: -23rem;
 	font-size: 30px;
 	font-weight: bold;
 	background-color: rgba(0,0,0,0.5) !important;
@@ -1898,7 +1909,9 @@ img.hover-shadow {
 
 
 
-
+#myModal, #myModal1, #myModal2{
+	background-color: rgba(0, 0, 0, 0.9);
+}
 
 
 
@@ -1921,8 +1934,9 @@ img.hover-shadow {
 .navbar {
 /* background-color: transparent; */
 transition: 0.3s ease-in-out;
-padding: 0;
+padding: 5px 15px 5px 10px;
 display: flex;
+justify-content: space-between;
 /* height: 120px; */
 height: 85px;
 background-color: #fff !important;
