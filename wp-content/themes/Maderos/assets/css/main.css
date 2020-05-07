@@ -2209,3 +2209,12 @@ margin-left: 15px;
     height: 100%;
     object-fit: cover;
 }
+
+
+.imagenes-360{
+	padding-top: 80px;
+}
+
+.imagenes-360 .title-general{
+	margin-left: 0;
+}
