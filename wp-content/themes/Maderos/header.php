@@ -6,6 +6,12 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Maderos</title>
   <link href="<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <meta content='' name='description'>
+  <meta content='' name='keywords'>
+  <meta content='website' property='og:type'>
+  <meta content='' property='og:title'>
+  <meta content='' property='og:description'>
+  <meta content='' property='og:image'>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
     rel="stylesheet">
