@@ -12,7 +12,7 @@
   
   <!-- Google Meta Data -->
   <meta name='description', content='<?php bloginfo('description');?>'>
-  <meta name='keywords', content=''>
+  <meta name='keywords', content='apartamentos en venta en el retiro antioquia, apartamentos en venta el retiro, apartamentos para la venta en el retiro antioquia, venta de apartamentos en el retiro antioquia'>
   <meta name="robots" content="index, follow">
 
     <!-- Blog Meta Data -->

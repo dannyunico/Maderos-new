@@ -14,7 +14,7 @@
               <div>
 
 
-                <form method="POST" action="<?php echo bloginfo('url').'/';?>" id="_form_7_" class="_form _form_7 _inline-form  _dark" novalidate>
+                <form method="POST" action="https://nivel.activehosted.com/proc.php" id="_form_7_" class="_form _form_7 _inline-form  _dark" novalidate>
                   <input type="hidden" name="u" value="7" />
                   <input type="hidden" name="f" value="7" />
                   <input type="hidden" name="s" />
