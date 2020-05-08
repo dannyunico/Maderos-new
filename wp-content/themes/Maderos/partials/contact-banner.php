@@ -68,7 +68,7 @@
 				</div>
 				
 
-				<div class="col-md-6">
+				<div class="col-md-5">
 					<div class="_form_element _field2 _full_width " >
 						<label class="_form-label">
 
