@@ -1284,6 +1284,9 @@ img.iconos-planos{
 .end-text a{
 	color:#5ad0cc !important;
 }
+.end-text p{
+	margin-bottom: 0px;
+}
 
 .footer__grid {
 	gap: 80px;
