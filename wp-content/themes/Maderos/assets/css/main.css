@@ -1936,7 +1936,7 @@ img.hover-shadow {
 transition: 0.3s ease-in-out;
 padding: 5px 15px 5px 10px;
 display: flex;
-justify-content: space-between;
+justify-content: flex-start;
 /* height: 120px; */
 height: 85px;
 background-color: #fff !important;
