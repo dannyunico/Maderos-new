@@ -65,6 +65,13 @@
 			</ul>
 		</div>
 	</div>
+	<div class="copy">
+		<div class="main-end__text">
+			<p class="end-text">
+				Copyright © 2020 <a href="">Branch</a>
+			</p>
+		</div>
+	</div>
 </footer>
 
 

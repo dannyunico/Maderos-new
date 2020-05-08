@@ -1269,8 +1269,20 @@ img.iconos-planos{
 
 
 /*  footer */
-footer {
+/* footer {
 	background:#5ad0cc;
+} */
+
+.copy{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 55px;
+	background-color: #fff;
+}
+.end-text a{
+	color:#5ad0cc !important;
 }
 
 .footer__grid {
@@ -1280,6 +1292,7 @@ footer {
 	padding: 50px 100px 30px 150px; 
 	color: #2d2d2d;
 	font-family:' Montserrat';
+	background:#5ad0cc;
 }
 
 .footer__grid--tem:nth-child(1) ul {
