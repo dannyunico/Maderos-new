@@ -68,7 +68,7 @@
 	<div class="copy">
 		<div class="main-end__text">
 			<p class="end-text">
-				 <a href="">Copyright © 2020 Branch</a>
+				 <a target="_blank" href="https://sigma.la/">Copyright © 2020 Sigma Studios</a>
 			</p>
 		</div>
 	</div>
