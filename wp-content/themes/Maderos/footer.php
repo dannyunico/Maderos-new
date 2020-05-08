@@ -68,7 +68,7 @@
 	<div class="copy">
 		<div class="main-end__text">
 			<p class="end-text">
-				Copyright © 2020 <a href="">Branch</a>
+				 <a href="">Copyright © 2020 Branch</a>
 			</p>
 		</div>
 	</div>
