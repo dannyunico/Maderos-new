@@ -52,42 +52,79 @@
 
 <body>
   <div class="padd__top">
-    <header id="home">
-      <nav class="navbar navbar-expand-lg fixed-top ">
-        <div class="main-brand " >
-          <a class="navbar-brand" href="<?php echo bloginfo('url').'/';?>">
-              <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
-            </a>
-          <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-        </div>
-        <div class="navbar-collapse offcanvas-collapse">
-            <!-- <img id="img-pd" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" /> -->
-            <ul class="navbar-nav m-auto">
+    <?php if(is_home()): ?>
+      <header id="home">
+        <nav class="navbar navbar-expand-lg fixed-top ">
+          <div class="main-brand " >
+            <a class="navbar-brand" href="<?php echo bloginfo('url').'/';?>">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
+              </a>
+            <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <div class="navbar-collapse offcanvas-collapse">
+              <!-- <img id="img-pd" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" /> -->
+              <ul class="navbar-nav m-auto">
 
-              <li class="nav-item ">
-                <a class="nav-link  " href="#detalle-proyecto">detalle de PROYECTO</a>
-              </li>
-  
-              
-              <li class="nav-item">
-                <a class="nav-link " href="#planos-proyecto">PLANOS DEL PROYECTO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#galeria">GALERÍA</a>
-              </li>
-        
-              <li class="nav-item">
-                <a class="nav-link " href="#formulario">contacto</a>
-              </li>
+                <li class="nav-item ">
+                  <a class="nav-link  " href="#detalle-proyecto">detalle de PROYECTO</a>
+                </li>
+    
+                
+                <li class="nav-item">
+                  <a class="nav-link " href="#planos-proyecto">PLANOS DEL PROYECTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#galeria">GALERÍA</a>
+                </li>
+          
+                <li class="nav-item">
+                  <a class="nav-link " href="#formulario">contacto</a>
+                </li>
 
-              
-            </ul>
-      </nav>
-    </header>
+                
+              </ul>
+        </nav>
+      </header>
   
-  
-  
+    <?php else:?>
+      <header id="home">
+        <nav class="navbar navbar-expand-lg fixed-top ">
+          <div class="main-brand " >
+            <a class="navbar-brand" href="<?php echo bloginfo('url').'/';?>">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
+              </a>
+            <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <div class="navbar-collapse offcanvas-collapse">
+              <!-- <img id="img-pd" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" /> -->
+              <ul class="navbar-nav m-auto">
+
+                <li class="nav-item ">
+                  <a class="nav-link  " href="<?php echo bloginfo('url').'/#detalle-proyecto';?>">detalle de PROYECTO</a>
+                </li>
+    
+                
+                <li class="nav-item">
+                  <a class="nav-link " href="<?php echo bloginfo('url').'/#planos-proyecto';?>">PLANOS DEL PROYECTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="<?php echo bloginfo('url').'/#galeria';?>">GALERÍA</a>
+                </li>
+          
+                <li class="nav-item">
+                  <a class="nav-link " href="<?php echo bloginfo('url').'/#formulario';?>">contacto</a>
+                </li>
+
+                
+              </ul>
+        </nav>
+      </header>
+    <?php endif; ?>
