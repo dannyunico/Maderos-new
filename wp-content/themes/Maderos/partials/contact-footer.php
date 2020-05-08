@@ -76,7 +76,7 @@
                         <textarea name="field[2]" placeholder="Mensaje"  ></textarea>
                       </div>
                     </div>
-                    <div class="_form_element _field4 _full_width " >
+                    <div class="_form_element _field4 _full_width " id="check-footer" >
                       <div class="_row">
                         <label class="_form-label">
 
@@ -87,7 +87,7 @@
                         <input style="width: auto;" id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
                         <span>
                           <label for="field_4Acepto" style="color: white;">
-                           Acepto <a target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf"><span class="politicas-p">politicas y privacidad</span></a>
+                           Acepto <a target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf"><span class="politicas-p">políticas y privacidad</span></a>
                          </label>
                        </span>
                      </div>

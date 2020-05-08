@@ -1,7 +1,7 @@
 <section class="p-50" >
 	<div class="main-galery">
 		<div class="title-general">
-			<h3>ubicacion</h3>
+			<h3>ubicaciÓn</h3>
 			<hr>
 		</div>
 
