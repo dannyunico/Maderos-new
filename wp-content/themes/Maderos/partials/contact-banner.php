@@ -96,22 +96,24 @@
 							Enviar
 						</button>
 					</div>
-					<div class="_clear-element">
-					</div>
-
-					<div class="_form-thank-you" style="">
-					</div>
-					<div class="_form-branding" style="display: none;">
-						<div class="_marketing-by">
-							Marketing por
-						</div>
-						<a href="http://www.activecampaign.com" class="_logo"></a>
-					</div>
 				</div>
 			</div>
+			<div class="_clear-element">
+			</div>
 
-		</form>
-	</div>
+			<div class="_form-thank-you" style="display: none;">
+			</div>
+			<div class="_form-branding" style="display: none;">
+				<div class="_marketing-by">
+					Marketing por
+				</div>
+				<a href="http://www.activecampaign.com" class="_logo"></a>
+			</div>
+		</div>
+		
+
+	</form>
+</div>
 
 			<!-- <div class="form__item">
 				<form action="#">
