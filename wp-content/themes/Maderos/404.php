@@ -20,7 +20,7 @@
 								<p class="text-two-error"><strong>Te llevamos de regreso</strong></p>
 							</div>
 							<div class="content-btn-404">
-								<button class="btn_custom btn--medium btn--filled--trans btn-size" style="letter-spacing: 1.9px;">
+								<button class="btn btn-black btn-form btp" style="letter-spacing: 1.9px;width:55%;">
 									volver al home
 								</button>
 							</div>
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 				<div class="main-banner__img main-banner__img--thanks">
-					<img src="<?php echo get_template_directory_uri();?>/assets/img/Thanks/image_6.png">
+					<img src="<?php echo get_template_directory_uri();?>/assets/img/banner.png">
 				</div>
 			</div>
 		</div>
