@@ -3,10 +3,10 @@
 <footer>
 	<div class="footer__grid ">
 		<div class="footer__grid--tem ">
-		<div class="footer__grid--img">
-			<img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="Logo Maderos">
-			<img src="<?php echo get_template_directory_uri();?>/assets/img/logo-nivel.png" alt="Logo Nivel">		
-		</div>
+			<div class="footer__grid--img">
+				<img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="Logo Maderos">
+				<img src="<?php echo get_template_directory_uri();?>/assets/img/logo-nivel.png" alt="Logo Nivel">		
+			</div>
 
 			<p>El espacio que siempre has querido en un municipio tranquzilo, campestre y cerca a todo lo que necesitas. 
 			</p>
@@ -437,6 +437,7 @@ addEvent(form_to_submit, 'submit', form_submit);
 	new WOW().init();
 </script>
 </div>
+<?php wp_footer(); ?>
 </body>
 
 </html>

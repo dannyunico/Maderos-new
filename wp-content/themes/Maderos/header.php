@@ -32,12 +32,14 @@
   <meta property="og:site_name" content="">
   <meta property="og:title" content="">
   <meta content='' property='og:description'>
+
   <meta property="og:type" content="">
   <meta property="og:image" content="">
 
   <!-- Links -->
   <link href="<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="<?php echo get_template_directory_uri();?>/assets/css/fonts.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/fonts.css">
   <link href="<?php echo get_template_directory_uri();?>/assets/css/slick.css" rel="stylesheet" />
   <link href="<?php echo get_template_directory_uri();?>/assets/css/slick-theme.css" rel="stylesheet" />
   <link href="<?php echo get_template_directory_uri();?>/assets/css/font-awesome.css" rel="stylesheet" />
@@ -45,6 +47,7 @@
   <link href="<?php echo get_template_directory_uri();?>/assets/css/main.css" rel="stylesheet" />
   <link href="<?php echo get_template_directory_uri();?>/assets/css/responsive.css" rel="stylesheet" />
   <link href="<?php echo get_template_directory_uri();?>/assets/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" >
+  <?php wp_head(); ?>
 </head>
 
 <body>
@@ -52,7 +55,7 @@
     <header id="home">
       <nav class="navbar navbar-expand-lg fixed-top ">
         <div class="main-brand " >
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="<?php echo bloginfo('url').'/';?>">
               <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
             </a>
           <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
